@@ -48,7 +48,7 @@ export default function AboutPage() {
                   We are living through the most consequential period of
                   technological development in human history. Artificial
                   intelligence systems are being deployed across healthcare,
-                  criminal justice, education, and democratic governance — often
+                  criminal justice, education, and government institutions — often
                   without adequate ethical scrutiny or meaningful public
                   deliberation. Social media platforms shape the information
                   environment for billions, with profound effects on mental
@@ -70,7 +70,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   The Lab exists to fill this need. We bring the depth,
-                  precision, and rigor of philosophical inquiry to questions
+                  precision, and clarity of philosophical inquiry to questions
                   that are too often addressed superficially or abandoned to
                   purely technical solution-making. Our work is driven by the
                   conviction that good technology policy requires good

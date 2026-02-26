@@ -16,7 +16,7 @@ export const events: Event[] = [
   {
     title: "PTP Lab Undergraduate Fellows Workshop",
     description:
-      "The Undergraduate Fellows Workshop features presentations from the McGill PTP Lab's undergraduate fellows on critical issues in technology and policy, with commentary and feedback from the Lab's graduate fellows. Papers presented will be published, pending final review, in the McGill undergraduate philosophy journal Fragments.",
+      "The Undergraduate Fellows Workshop features presentations from the McGill PTP Lab's undergraduate fellows on critical issues in technology and policy, with commentary and feedback from the Lab's graduate fellows. Papers presented will be published, pending final review, in the McGill undergraduate philosophy journal <em>Fragments</em>.",
     date: "April 10, 2026",
     note: "By invitation only.",
   },

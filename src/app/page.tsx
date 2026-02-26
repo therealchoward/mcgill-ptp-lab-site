@@ -230,8 +230,9 @@ export default function Home() {
               Public Engagement
             </h2>
             <p className="mt-6 text-[17px] text-text-secondary max-w-2xl leading-relaxed">
-              We bring rigorous philosophical analysis to broader audiences
-              through our workshops, blog, podcast, and public events.
+              We bring rigorous philosophical analysis of emerging technologies
+              to broad audiences through our workshops, blog, podcast, and public
+              events.
             </p>
           </ScrollReveal>
           <div className="mt-10 space-y-6">
@@ -267,10 +268,9 @@ export default function Home() {
             </h2>
             <p className="mt-6 text-[17px] leading-relaxed text-white/70 max-w-2xl">
               The Lab&apos;s work is urgent, interdisciplinary, and producing
-              real policy impact. Donor support enables fellowships, workshops,
-              and research that shapes the ethical landscape of transformative
-              technologies. Help us build the foundations for a just digital
-              society.
+              real policy impact. Donor support enables initiatives that shape
+              the normative landscape of transformative technologies. Help us
+              build the foundations for a just digital society.
             </p>
             <Link
               href="/support"

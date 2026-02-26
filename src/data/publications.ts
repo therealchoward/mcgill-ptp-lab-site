@@ -10,11 +10,25 @@ export interface Publication {
 export const publications: Publication[] = [
   {
     authors: "Howard, C.",
+    year: "n.d.",
+    title: "Decentralizing the Digital Public Sphere",
+    venue: "Working paper",
+    clusters: ["Platform Ethics & Governance"],
+  },
+  {
+    authors: "Howard, C.",
+    year: "n.d.",
+    title: "Coring the MANGO: A Case for Decentralized AI Systems",
+    venue: "Working paper",
+    clusters: ["Platform Ethics & Governance"],
+  },
+  {
+    authors: "Howard, C.",
     year: "2026",
     title: "Rational feelings for virtual things?",
     venue: "Philosophical Issues",
     url: "https://onlinelibrary.wiley.com/doi/10.1111/phis.70007",
-    clusters: ["AI Ethics & Policy"],
+    clusters: ["Platform Ethics & Governance"],
   },
   {
     authors: "Paquin, V., Lavallee, Z., Huot-Lavoie, M., Ku, B. S., Díaz-Caneja, C. M., & Gülöksüz, S.",

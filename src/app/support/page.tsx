@@ -36,7 +36,7 @@ export default function SupportPage() {
     <>
       <PageHero
         title="Support the Lab"
-        subtitle="Help us shape the ethical landscape of transformative technologies"
+        subtitle="Help us shape the normative landscape of transformative technologies"
       />
 
       <section className="px-6 pb-24 md:pb-32">
@@ -46,25 +46,25 @@ export default function SupportPage() {
             <div className="max-w-3xl">
               <div className="space-y-6 text-[17px] leading-relaxed text-text-secondary">
                 <p>
-                  The decisions being made today about AI, social media, and
-                  other emerging technologies will define the conditions of human
-                  life for generations. Yet those decisions are being made
-                  largely without adequate philosophical and ethical foundations.
-                  The Lab exists to change that, bringing the tools of philosophy
-                  to bear on the most urgent ethical challenges of the digital
-                  age.
+                  The decisions being made today in the technology space will
+                  define the conditions of human life for generations. Yet those
+                  decisions are being made largely without adequate normative
+                  foundations. The Lab exists to change that, bringing the tools
+                  of philosophy to bear on the most urgent ethics and governance
+                  challenges of the digital age.
                 </p>
                 <p>
-                  Your support enables graduate and undergraduate fellowships,
-                  workshops and conferences that convene leading researchers and
-                  policymakers, public outreach initiatives that bring our work
-                  to broader audiences, and cutting-edge research that gives
-                  policymakers and designers the normative frameworks they need.
+                  Your support enables postdoctoral, graduate, and undergraduate
+                  fellowships, workshops and conferences that convene leading
+                  researchers and policymakers, public outreach initiatives that
+                  bring our work to broader audiences, and cutting-edge research
+                  that gives policymakers and designers the normative frameworks
+                  they need.
                 </p>
                 <p>
                   We welcome conversations with individuals and organizations
-                  who share our commitment to a just and flourishing digital
-                  society.
+                  who share our commitment to realizing the good digital life and
+                  a just and flourishing digital society.
                 </p>
               </div>
             </div>

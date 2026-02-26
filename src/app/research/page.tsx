@@ -30,6 +30,7 @@ const researchAreas = [
 ];
 
 const clusters = [
+  { name: "Platform Ethics & Governance", key: "Platform Ethics & Governance" },
   { name: "AI Ethics & Policy", key: "AI Ethics & Policy" },
   { name: "Data Ethics & Measurement", key: "Data Ethics & Measurement" },
   { name: "Mental Health & Technology", key: "Mental Health & Technology" },
@@ -69,7 +70,7 @@ export default function ResearchPage() {
     <>
       <PageHero
         title="Research"
-        subtitle="Our intellectual focus spans four overlapping areas, united by a commitment to bringing philosophical rigor to the study of emerging technologies."
+        subtitle="Our intellectual focus spans four overlapping areas, united by a commitment to bringing normative philosophical analysis to the study of emerging technologies."
       />
 
       {/* Research Areas */}
@@ -157,9 +158,7 @@ export default function ResearchPage() {
 
           {!showAll && (
             <p className="mt-4 text-[15px] text-text-secondary">
-              {publications.length} publications from{" "}
-              {publications[publications.length - 1].year} to{" "}
-              {publications[0].year}.{" "}
+              {publications.length} publications.{" "}
               <button
                 onClick={() => setShowAll(true)}
                 className="text-accent hover:underline"

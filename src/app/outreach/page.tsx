@@ -20,7 +20,7 @@ const initiatives = [
   {
     title: "A Philosophical Lexicon of Machine Learning",
     description:
-      "The Philosophical Lexicon of Machine Learning is a glossary designed to make machine learning concepts accessible to humanities scholars and ethicists. Each entry explains technical terms — from neural networks to gradient descent — in clear language that bridges CS and humanities disciplines.",
+      "The Philosophical Lexicon of Machine Learning is a glossary designed to make machine learning concepts accessible to humanities scholars and ethicists. Each entry explains technical concepts — from neural networks to gradient descent — in clear language that bridges CS and humanities disciplines.",
     lead: "Asya Ciftci",
   },
   {
@@ -42,7 +42,7 @@ export default function OutreachPage() {
     <>
       <PageHero
         title="Outreach"
-        subtitle="We bring rigorous philosophical analysis to broader audiences through blogs, podcasts, workshops, and public engagement."
+        subtitle="We bring rigorous philosophical analysis of emerging technologies to broad audiences through our workshops, blog, podcast, and public events."
       />
 
       <section className="px-6 pb-24 md:pb-32">

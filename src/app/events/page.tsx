@@ -34,9 +34,10 @@ export default function EventsPage() {
                     )}
                   </div>
                   <h3 className="text-xl font-semibold">{event.title}</h3>
-                  <p className="mt-3 text-[15px] text-text-secondary leading-relaxed max-w-3xl">
-                    {event.description}
-                  </p>
+                  <p
+                    className="mt-3 text-[15px] text-text-secondary leading-relaxed max-w-3xl"
+                    dangerouslySetInnerHTML={{ __html: event.description }}
+                  />
                 </article>
               </ScrollReveal>
             ))}
