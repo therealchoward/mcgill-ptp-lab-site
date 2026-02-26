@@ -25,7 +25,7 @@ const researchAreas = [
     href: "/research",
   },
   {
-    title: "Mental Health & Technology",
+    title: "Mental Health & Biotech",
     description:
       "Investigating technology-induced psychological harms and the ethics of digital mental health interventions.",
     href: "/research",

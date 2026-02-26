@@ -23,7 +23,7 @@ const researchAreas = [
       "We address questions of algorithmic accountability, bias and fairness, transparency, and the distribution of power in AI development, with a focus on both technical standards and policy frameworks.",
   },
   {
-    title: "Mental Health & Technology",
+    title: "Mental Health & Biotech",
     description:
       "We investigate technology-induced psychological harms, the access and effectiveness of digital mental health interventions, and the ethical boundaries between treatment and enhancement.",
   },
@@ -33,7 +33,7 @@ const clusters = [
   { name: "Platform Ethics & Governance", key: "Platform Ethics & Governance" },
   { name: "AI Ethics & Policy", key: "AI Ethics & Policy" },
   { name: "Data Ethics & Measurement", key: "Data Ethics & Measurement" },
-  { name: "Mental Health & Technology", key: "Mental Health & Technology" },
+  { name: "Mental Health & Biotech", key: "Mental Health & Biotech" },
 ];
 
 function PublicationCitation({
@@ -70,7 +70,7 @@ export default function ResearchPage() {
     <>
       <PageHero
         title="Research"
-        subtitle="Our intellectual focus spans four overlapping areas, united by a commitment to bringing normative philosophical analysis to the study of emerging technologies."
+        subtitle="Our intellectual focus spans four overlapping areas, united by a commitment to bringing disciplined normative analysis to the study of emerging technologies."
       />
 
       {/* Research Areas */}
@@ -158,7 +158,13 @@ export default function ResearchPage() {
 
           {!showAll && (
             <p className="mt-4 text-[15px] text-text-secondary">
-              {publications.length} publications.{" "}
+              {publications.length} publications since{" "}
+              {Math.min(
+                ...publications
+                  .map((p) => parseInt(p.year))
+                  .filter((y) => !isNaN(y))
+              )}
+              .{" "}
               <button
                 onClick={() => setShowAll(true)}
                 className="text-accent hover:underline"

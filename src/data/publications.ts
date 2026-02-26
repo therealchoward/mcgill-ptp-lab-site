@@ -20,7 +20,7 @@ export const publications: Publication[] = [
     year: "n.d.",
     title: "Coring the MANGO: A Case for Decentralized AI Systems",
     venue: "Working paper",
-    clusters: ["Platform Ethics & Governance"],
+    clusters: ["AI Ethics & Policy"],
   },
   {
     authors: "Howard, C.",
@@ -37,7 +37,7 @@ export const publications: Publication[] = [
       "Situating problematic gaming and psychotic-like experiences in the adolescent landscape of affordances",
     venue: "Journal of Behavioral Addictions",
     url: "https://doi.org/10.1101/2025.03.24.25324546",
-    clusters: ["Mental Health & Technology"],
+    clusters: ["Mental Health & Biotech"],
   },
   {
     authors: "Maclure, J., & Morin-Martel, A.",
@@ -54,14 +54,14 @@ export const publications: Publication[] = [
       "The unrealized potential of phenomenology in understanding addiction",
     venue: "Philosophy, Psychiatry, & Psychology",
     url: "https://doi.org/10.1353/ppp.0.a973599",
-    clusters: ["Mental Health & Technology"],
+    clusters: ["Mental Health & Biotech"],
   },
   {
     authors: "Lavallee, Z., & Osler, L.",
     year: "2024",
     title: "Affordances and the shape of addiction",
     venue: "Philosophy, Psychiatry, & Psychology, 31(4), 379–395",
-    clusters: ["Mental Health & Technology"],
+    clusters: ["Mental Health & Biotech"],
   },
   {
     authors: "Rodriguez Duque, S., Tal, E., & Barbic, S.",
@@ -86,7 +86,7 @@ export const publications: Publication[] = [
     year: "2023",
     title: "Affective scaffolding in addiction",
     venue: "Inquiry, 1–29",
-    clusters: ["Mental Health & Technology"],
+    clusters: ["Mental Health & Biotech"],
   },
   {
     authors: "Tal, E.",
@@ -103,7 +103,7 @@ export const publications: Publication[] = [
     year: "2022",
     title: "The Ethics of Pandemics: An Introduction",
     venue: "Routledge",
-    clusters: ["Mental Health & Technology"],
+    clusters: ["Mental Health & Biotech"],
   },
   {
     authors: "Maclure, J.",
@@ -128,7 +128,7 @@ export const publications: Publication[] = [
     year: "2020",
     title: "Addictive craving: There's more to wanting more",
     venue: "Philosophy, Psychiatry, & Psychology, 27(3), 227–238",
-    clusters: ["Mental Health & Technology"],
+    clusters: ["Mental Health & Biotech"],
   },
   {
     authors: "Maclure, J.",
@@ -146,14 +146,5 @@ export const publications: Publication[] = [
       "In E. N. Zalta (Ed.), Stanford Encyclopedia of Philosophy",
     url: "https://plato.stanford.edu/entries/measurement-science/",
     clusters: ["Data Ethics & Measurement"],
-  },
-  {
-    authors: "Choudhury, S., Gold, I., & Kirmayer, L.",
-    year: "2010",
-    title:
-      "From brain image to the Bush Doctrine: Critical neuroscience and the political uses of neurotechnology",
-    venue:
-      "American Journal of Bioethics Neuroscience, 1(2), 17–19",
-    clusters: ["Mental Health & Technology"],
   },
 ];

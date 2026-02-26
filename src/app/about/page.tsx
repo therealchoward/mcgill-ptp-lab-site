@@ -13,7 +13,7 @@ export default function AboutPage() {
     <>
       <PageHero
         title="About"
-        subtitle="Our mission, approach, and values."
+        subtitle="Our mission, values, and approach."
       />
 
       <section className="px-6 pb-24 md:pb-32">

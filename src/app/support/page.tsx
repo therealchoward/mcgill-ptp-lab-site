@@ -36,7 +36,7 @@ export default function SupportPage() {
     <>
       <PageHero
         title="Support the Lab"
-        subtitle="Help us shape the normative landscape of transformative technologies"
+        subtitle="Help us shape the normative landscape of transformative technologies."
       />
 
       <section className="px-6 pb-24 md:pb-32">
@@ -48,9 +48,10 @@ export default function SupportPage() {
                 <p>
                   The decisions being made today in the technology space will
                   define the conditions of human life for generations. Yet those
-                  decisions are being made largely without adequate normative
-                  foundations. The Lab exists to change that, bringing the tools
-                  of philosophy to bear on the most urgent ethics and governance
+                  decisions are being made largely without adequate philosophical
+                  and ethical foundations. The Lab exists to change that,
+                  bringing the tools of philosophy to bear on the most urgent
+                  ethics and governance
                   challenges of the digital age.
                 </p>
                 <p>
@@ -62,9 +63,10 @@ export default function SupportPage() {
                   they need.
                 </p>
                 <p>
-                  We welcome conversations with individuals and organizations
-                  who share our commitment to realizing the good digital life and
-                  a just and flourishing digital society.
+                  We welcome conversations and collaborations with individuals
+                  and organizations who share our goals of building a just,
+                  flourishing digital society and realizing a better digital
+                  life.
                 </p>
               </div>
             </div>
