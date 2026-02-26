@@ -21,9 +21,9 @@ export default function BlogPage() {
                 The Normative Network
               </h2>
               <p className="mt-6 text-[17px] leading-relaxed text-text-secondary">
-                The Normative Network is the McGill PTP Lab&apos;s ideas forum —
-                featuring research insights, commentary, and analysis from lab
-                members and external contributors. It is published on Substack.
+                The Normative Network is the Lab&apos;s ideas forum — featuring
+                research insights, commentary, and analysis from lab members
+                and external contributors.
               </p>
               <a
                 href="https://substack.com/@thenormativenetwork"

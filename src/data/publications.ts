@@ -10,9 +10,10 @@ export interface Publication {
 export const publications: Publication[] = [
   {
     authors: "Howard, C.",
-    year: "forthcoming",
+    year: "2026",
     title: "Rational feelings for virtual things?",
     venue: "Philosophical Issues",
+    url: "https://onlinelibrary.wiley.com/doi/10.1111/phis.70007",
     clusters: ["AI Ethics & Policy"],
   },
   {
@@ -55,15 +56,6 @@ export const publications: Publication[] = [
       "The role of ethical and social values in psychosocial measurement",
     venue: "Measurement, 225, 113993",
     url: "https://doi.org/10.1016/j.measurement.2023.113993",
-    clusters: ["Data Ethics & Measurement"],
-  },
-  {
-    authors: "Tal, E.",
-    year: "2024",
-    title: "Models and measurement",
-    venue:
-      "In T. Knuuttila, N. Carrillo, & R. Koskinen (Eds.), The Routledge Handbook of Philosophy of Scientific Modeling (pp. 256–269). Routledge",
-    url: "https://doi.org/10.4324/9781003205647-23",
     clusters: ["Data Ethics & Measurement"],
   },
   {
@@ -118,14 +110,6 @@ export const publications: Publication[] = [
     clusters: ["AI Ethics & Policy"],
   },
   {
-    authors: "Tal, E.",
-    year: "2021",
-    title: "Two myths of representational measurement",
-    venue: "Perspectives on Science, 29(6), 701–741",
-    url: "https://doi.org/10.1162/posc_a_00391",
-    clusters: ["Data Ethics & Measurement"],
-  },
-  {
     authors: "Lavallee, Z.",
     year: "2020",
     title: "Addictive craving: There's more to wanting more",
@@ -147,50 +131,6 @@ export const publications: Publication[] = [
     venue:
       "In E. N. Zalta (Ed.), Stanford Encyclopedia of Philosophy",
     url: "https://plato.stanford.edu/entries/measurement-science/",
-    clusters: ["Data Ethics & Measurement"],
-  },
-  {
-    authors: "Tal, E.",
-    year: "2019",
-    title: "Individuating quantities",
-    venue: "Philosophical Studies, 176(4), 853–878",
-    url: "https://doi.org/10.1007/s11098-018-1216-2",
-    clusters: ["Data Ethics & Measurement"],
-  },
-  {
-    authors: "Tal, E.",
-    year: "2018",
-    title:
-      "Naturalness and convention in the International System of Units",
-    venue: "Measurement, 116, 631–643",
-    url: "https://doi.org/10.1016/j.measurement.2017.09.008",
-    clusters: ["Data Ethics & Measurement"],
-  },
-  {
-    authors: "Tal, E.",
-    year: "2017",
-    title: "Calibration: Modelling the measurement process",
-    venue:
-      "Studies in History and Philosophy of Science, 65–66, 33–45",
-    url: "https://doi.org/10.1016/j.shpsa.2017.09.001",
-    clusters: ["Data Ethics & Measurement"],
-  },
-  {
-    authors: "Tal, E.",
-    year: "2017",
-    title: "A model-based epistemology of measurement",
-    venue:
-      "In N. Mößner & A. Nordmann (Eds.), Reasoning in Measurement (pp. 233–253). Routledge",
-    clusters: ["Data Ethics & Measurement"],
-  },
-  {
-    authors: "Tal, E.",
-    year: "2016",
-    title:
-      "Making time: A study in the epistemology of measurement",
-    venue:
-      "British Journal for the Philosophy of Science, 67(1), 297–335",
-    url: "https://doi.org/10.1093/bjps/axu037",
     clusters: ["Data Ethics & Measurement"],
   },
   {

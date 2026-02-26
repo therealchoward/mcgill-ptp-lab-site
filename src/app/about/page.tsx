@@ -25,12 +25,12 @@ export default function AboutPage() {
                 Our Mission
               </h2>
               <p className="mt-6 text-[17px] leading-relaxed text-text-secondary">
-                The McGill PTP Lab brings the tools of philosophy to bear on
-                pressing questions in technology ethics and policy. We
-                investigate the interconnections between AI, social media, gaming
-                platforms, and other emerging technologies, examining how they
-                collectively shape human experience. Our mission is to articulate
-                and help realize the good digital life and just digital society.
+                We bring the tools of philosophy to bear on pressing questions
+                in technology ethics and policy. We investigate the
+                interconnections between AI, social media, gaming platforms, and
+                other emerging technologies, examining how they collectively
+                shape human experience. Our mission is to articulate and help
+                realize the good digital life and just digital society.
               </p>
             </div>
           </ScrollReveal>
@@ -69,12 +69,12 @@ export default function AboutPage() {
                   the challenge.
                 </p>
                 <p>
-                  The McGill PTP Lab exists to fill this need. We bring the
-                  depth, precision, and critical rigor of philosophical inquiry
-                  to questions that are too often addressed superficially or
-                  abandoned to purely technical solution-making. Our work is
-                  driven by the conviction that good technology policy requires
-                  good philosophy — and that the stakes of getting it wrong have
+                  The Lab exists to fill this need. We bring the depth,
+                  precision, and rigor of philosophical inquiry to questions
+                  that are too often addressed superficially or abandoned to
+                  purely technical solution-making. Our work is driven by the
+                  conviction that good technology policy requires good
+                  philosophy — and that the stakes of getting it wrong have
                   never been higher.
                 </p>
               </div>
@@ -116,9 +116,9 @@ export default function AboutPage() {
                     <strong className="text-foreground">
                       Public outreach
                     </strong>{" "}
-                    — A blog (The Normative Network), podcast, and workshops that
-                    bring rigorous philosophical analysis to broader audiences
-                    and contribute to informed public discourse.
+                    — A blog, podcast, workshops, and public events that
+                    communicate the Lab&apos;s research to broader audiences and
+                    contribute to informed public discourse.
                   </li>
                   <li className="pl-6 border-l-2 border-accent">
                     <strong className="text-foreground">

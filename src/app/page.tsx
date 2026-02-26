@@ -15,7 +15,7 @@ const researchAreas = [
   {
     title: "Data Ethics",
     description:
-      "Developing frameworks for responsible data use across AI, platforms, and public institutions.",
+      "Developing frameworks for responsible data use across AI, digital platforms, and public institutions.",
     href: "/research",
   },
   {
@@ -231,7 +231,7 @@ export default function Home() {
             </h2>
             <p className="mt-6 text-[17px] text-text-secondary max-w-2xl leading-relaxed">
               We bring rigorous philosophical analysis to broader audiences
-              through blogs, podcasts, workshops, and public events.
+              through our workshops, blog, podcast, and public events.
             </p>
           </ScrollReveal>
           <div className="mt-10 space-y-6">
@@ -268,9 +268,9 @@ export default function Home() {
             <p className="mt-6 text-[17px] leading-relaxed text-white/70 max-w-2xl">
               The Lab&apos;s work is urgent, interdisciplinary, and producing
               real policy impact. Donor support enables fellowships, workshops,
-              and research that shapes the governance of transformative
-              technologies. Help us build the philosophical foundations for a
-              just digital society.
+              and research that shapes the ethical landscape of transformative
+              technologies. Help us build the foundations for a just digital
+              society.
             </p>
             <Link
               href="/support"

@@ -12,7 +12,7 @@ const initiatives = [
   {
     title: "The Normative Network",
     description:
-      "The Normative Network is the McGill PTP Lab's blog, exploring questions at the intersection of ethics, tech, and policy. It features research insights, commentary, and analysis from lab members and external researchers on topics across all of the Lab's research pillars.",
+      "The Normative Network is the Lab's blog, exploring questions at the intersection of ethics, tech, and policy. It features research insights, commentary, and analysis from lab members and external researchers on topics across all of the Lab's research pillars.",
     lead: "Radheesh Ameresekere",
     link: "https://substack.com/@thenormativenetwork",
     linkLabel: "Read on Substack",
@@ -30,9 +30,9 @@ const initiatives = [
     lead: "Alexander Carty",
   },
   {
-    title: "Artificial Intelligence Myths and Misinformation Workshop",
+    title: "AI Myths and Misinformation Workshops",
     description:
-      "The AI Myths and Misinformation Workshop brings together philosophers, cognitive scientists, social scientists, and computer scientists to examine popular misconceptions about artificial intelligence using the toolkit of analytic epistemology. Findings are disseminated widely to public audiences.",
+      "The AI Myths and Misinformation Workshops bring together philosophers, cognitive scientists, social scientists, and computer scientists to examine popular misconceptions about artificial intelligence using the toolkit of analytic epistemology. Findings are disseminated widely to public audiences.",
     lead: "Maryna Nekrasova",
   },
 ];
