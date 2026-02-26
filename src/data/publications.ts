@@ -11,14 +11,14 @@ export const publications: Publication[] = [
   {
     authors: "Howard, C.",
     year: "n.d.",
-    title: "Decentralizing the Digital Public Sphere",
+    title: "Decentralizing the digital public sphere",
     venue: "Working paper",
     clusters: ["Platform Ethics & Governance"],
   },
   {
     authors: "Howard, C.",
     year: "n.d.",
-    title: "Coring the MANGO: A Case for Decentralized AI Systems",
+    title: "Coring the MANGO: A case for decentralized AI systems",
     venue: "Working paper",
     clusters: ["AI Ethics & Policy"],
   },

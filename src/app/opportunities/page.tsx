@@ -25,13 +25,13 @@ export default function OpportunitiesPage() {
               </h2>
               <div className="mt-6 space-y-6 text-[17px] leading-relaxed text-text-secondary">
                 <p>
-                  The PTP Lab selects four graduate fellows and four
+                  The Lab selects four philosophy graduate fellows and four
                   undergraduate fellows annually to participate in our research
                   initiatives and collaborative projects. The next fellowship
                   round will be advertised in August 2026.
                 </p>
                 <p>
-                  In the meantime, we welcome engagement from those interested in
+                  In the meantime, we welcome engagement from students and faculty who are interested in
                   participating in our events, exploring research collaborations,
                   or partnering with the lab. Please reach out to discuss how you
                   might get involved.

@@ -172,6 +172,7 @@ export default function SupportPage() {
                   >
                     mcgillptp@gmail.com
                   </a>
+                  .
                 </p>
               </div>
             </div>
