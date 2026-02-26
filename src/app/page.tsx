@@ -57,8 +57,8 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="hero-gradient min-h-[90vh] flex items-center px-6 pt-[72px]">
-        <div className="max-w-[1200px] mx-auto w-full py-24">
+      <section className="hero-gradient min-h-[70vh] flex items-center px-6 pt-[72px]">
+        <div className="max-w-[1200px] mx-auto w-full py-16 md:py-20">
           <ScrollReveal>
             <h1 className="font-serif text-[44px] sm:text-[56px] md:text-[72px] leading-[1.08] tracking-tight max-w-4xl">
               The McGill Philosophy, Technology &amp; Policy Lab
@@ -70,16 +70,6 @@ export default function Home() {
             </p>
           </ScrollReveal>
           <ScrollReveal delay={0.2}>
-            <p className="mt-8 text-[17px] leading-relaxed text-text-secondary max-w-2xl">
-              The McGill PTP Lab brings the tools of philosophy to bear on
-              pressing questions in technology ethics and policy. We investigate
-              the interconnections between AI, social media, gaming platforms,
-              and other emerging technologies, examining how they collectively
-              shape human experience. Our mission is to articulate and help
-              realize the good digital life and just digital society.
-            </p>
-          </ScrollReveal>
-          <ScrollReveal delay={0.3}>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link
                 href="/research"
@@ -101,7 +91,7 @@ export default function Home() {
       </section>
 
       {/* Research Pillars */}
-      <section className="px-6 py-24 md:py-32">
+      <section className="px-6 py-16 md:py-20">
         <div className="max-w-[1200px] mx-auto">
           <ScrollReveal>
             <SectionLabel number="01" label="Research" />

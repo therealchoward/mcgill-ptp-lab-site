@@ -13,7 +13,7 @@ export default function AboutPage() {
     <>
       <PageHero
         title="About"
-        subtitle="Understanding the McGill Philosophy, Technology & Policy Lab"
+        subtitle="Our mission, approach, and values."
       />
 
       <section className="px-6 pb-24 md:pb-32">
