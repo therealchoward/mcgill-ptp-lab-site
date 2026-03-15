@@ -124,7 +124,7 @@ export default function Home() {
       </div>
 
       {/* Featured Publications */}
-      <section className="px-6 py-24 md:py-32">
+      <section className="px-6 py-16 md:py-20">
         <div className="max-w-[1200px] mx-auto">
           <ScrollReveal>
             <SectionLabel number="02" label="Publications" />
@@ -177,7 +177,7 @@ export default function Home() {
       </div>
 
       {/* Team Teaser */}
-      <section className="px-6 py-24 md:py-32">
+      <section className="px-6 py-16 md:py-20">
         <div className="max-w-[1200px] mx-auto">
           <ScrollReveal>
             <SectionLabel number="03" label="Team" />
@@ -222,7 +222,7 @@ export default function Home() {
       </div>
 
       {/* Outreach Teaser */}
-      <section className="px-6 py-24 md:py-32">
+      <section className="px-6 py-16 md:py-20">
         <div className="max-w-[1200px] mx-auto">
           <ScrollReveal>
             <SectionLabel number="04" label="Outreach" />
