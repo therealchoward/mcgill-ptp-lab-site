@@ -9,25 +9,25 @@ const researchAreas = [
   {
     title: "Platform Ethics & Governance",
     description:
-      "We analyze the norms, policies, and technical architectures that shape speech, data, commerce, and identity online, and develop normative frameworks for ethical platform design and governance.",
+      "Analyzing the norms, policies, and technical architectures that shape speech, data, commerce, and identity online.",
     href: "/research",
   },
   {
     title: "Data Ethics",
     description:
-      "We develop systematic frameworks and practical guidelines for responsible data use across AI, platforms, and public institutions, with attention to power, consent, and social impact.",
+      "Developing frameworks for responsible data use across AI, digital platforms, and public institutions.",
     href: "/research",
   },
   {
     title: "AI Ethics & Policy",
     description:
-      "We address questions of algorithmic accountability, bias and fairness, transparency, and the distribution of power in AI development, with a focus on both technical standards and policy frameworks.",
+      "Addressing questions of algorithmic accountability, bias, transparency, and power in AI development.",
     href: "/research",
   },
   {
     title: "Mental Health & Biotech",
     description:
-      "We investigate technology-induced psychological harms, the access and effectiveness of digital mental health interventions, and the ethical boundaries between treatment and enhancement.",
+      "Investigating technology-induced psychological harms and the ethics of digital mental health interventions.",
     href: "/research",
   },
 ];
