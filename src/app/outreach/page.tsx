@@ -28,6 +28,8 @@ const initiatives = [
     description:
       "The PTP Lab Podcast features in-depth conversations with researchers and experts who contribute to The Normative Network blog. Each episode explores cutting-edge thinking about platform governance, AI ethics, data policy, and other urgent questions where philosophy, tech, and policy converge.",
     lead: "Alexander Carty",
+    link: "https://www.youtube.com/@McGillPTPLab",
+    linkLabel: "Watch on YouTube",
   },
   {
     title: "AI Myths and Misinformation Workshop",
