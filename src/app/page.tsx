@@ -15,7 +15,7 @@ const researchAreas = [
   {
     title: "Data Ethics",
     description:
-      "Developing frameworks for responsible data use across AI, digital platforms, and public institutions.",
+      "Developing frameworks for responsible data collection and use across AI, digital platforms, and public institutions.",
     href: "/research",
   },
   {
