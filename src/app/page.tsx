@@ -27,7 +27,7 @@ const researchAreas = [
   {
     title: "Mental Health & Biotech",
     description:
-      "Investigating technology-induced psychological harms and the ethics of digital mental health interventions.",
+      "Investigating technology-induced psychological harms, the ethics of digital mental health interventions, and the ethics of enhancement.",
     href: "/research",
   },
 ];
