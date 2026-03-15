@@ -15,7 +15,7 @@ export default function MembersPage() {
     <>
       <PageHero
         title="Members"
-        subtitle="Our members and affiliates include philosophers, technologists, and policy experts investigating the ethical and political dimensions of AI, social media, gaming, and other emerging technologies."
+        subtitle="Our members and affiliates include philosophers, technologists, and policy experts investigating the ethical and political dimensions of AI, social media, biotech, and other emerging technologies."
       />
 
       <section className="px-6 pb-24 md:pb-32">

@@ -30,9 +30,9 @@ const initiatives = [
     lead: "Alexander Carty",
   },
   {
-    title: "AI Myths and Misinformation Workshops",
+    title: "AI Myths and Misinformation Workshop",
     description:
-      "The AI Myths and Misinformation Workshops bring together philosophers, cognitive scientists, social scientists, and computer scientists to examine popular misconceptions about artificial intelligence using the toolkit of analytic epistemology. Findings are disseminated widely to public audiences.",
+      "The AI Myths and Misinformation Workshop brings together philosophers, cognitive scientists, social scientists, and computer scientists to examine popular misconceptions about artificial intelligence using the toolkit of analytic epistemology. Findings are disseminated widely to public audiences.",
     lead: "Maryna Nekrasova",
   },
 ];

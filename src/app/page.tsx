@@ -9,25 +9,25 @@ const researchAreas = [
   {
     title: "Platform Ethics & Governance",
     description:
-      "Analyzing the norms, policies, and technical architectures that shape speech, data, and identity online.",
+      "We analyze the norms, policies, and technical architectures that shape speech, data, commerce, and identity online, and develop normative frameworks for ethical platform design and governance.",
     href: "/research",
   },
   {
     title: "Data Ethics",
     description:
-      "Developing frameworks for responsible data use across AI, digital platforms, and public institutions.",
+      "We develop systematic frameworks and practical guidelines for responsible data use across AI, platforms, and public institutions, with attention to power, consent, and social impact.",
     href: "/research",
   },
   {
     title: "AI Ethics & Governance",
     description:
-      "Addressing questions of algorithmic accountability, bias, transparency, and power in AI development.",
+      "We address questions of algorithmic accountability, bias and fairness, transparency, and the distribution of power in AI development, with a focus on both technical standards and policy frameworks.",
     href: "/research",
   },
   {
     title: "Mental Health & Biotech",
     description:
-      "Investigating technology-induced psychological harms and the ethics of digital mental health interventions.",
+      "We investigate technology-induced psychological harms, the access and effectiveness of digital mental health interventions, and the ethical boundaries between treatment and enhancement.",
     href: "/research",
   },
 ];
@@ -41,7 +41,7 @@ const outreachItems = [
   {
     title: "PTP Lab Podcast",
     description:
-      "In-depth conversations with researchers on platform governance, AI ethics, and digital policy.",
+      "In-depth conversations with scholars working in the Lab's research areas.",
   },
   {
     title: "AI Myths & Misinformation Workshop",
@@ -259,29 +259,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Support CTA */}
-      <section className="bg-dark-bg text-white px-6 py-24 md:py-32">
-        <div className="max-w-[1200px] mx-auto">
-          <ScrollReveal>
-            <h2 className="font-serif text-[36px] md:text-[44px] leading-tight text-white">
-              Support the Lab
-            </h2>
-            <p className="mt-6 text-[17px] leading-relaxed text-white/70 max-w-2xl">
-              The Lab&apos;s work is urgent, interdisciplinary, and producing
-              real policy impact. Donor support enables initiatives that shape
-              the normative landscape of transformative technologies. Help us
-              build the foundations for a just digital society.
-            </p>
-            <Link
-              href="/support"
-              className="inline-flex items-center gap-2 mt-8 bg-accent text-white px-6 py-3 text-[15px] font-medium rounded-sm hover:bg-accent/90 transition-colors"
-            >
-              Get in touch
-              <span aria-hidden="true">&rarr;</span>
-            </Link>
-          </ScrollReveal>
-        </div>
-      </section>
     </>
   );
 }

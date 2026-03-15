@@ -18,7 +18,7 @@ export const publications: Publication[] = [
   {
     authors: "Howard, C.",
     year: "n.d.",
-    title: "Coring the MANGO: A case for decentralized AI systems",
+    title: "Power diffusion through pluralism: The case for decentralized AI",
     venue: "Working paper",
     clusters: ["AI Ethics & Policy"],
   },

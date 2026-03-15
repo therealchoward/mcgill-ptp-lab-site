@@ -10,7 +10,7 @@ const researchAreas = [
   {
     title: "Platform Ethics & Governance",
     description:
-      "We analyze the norms, policies, and technical architectures that shape speech, data, and identity online, and develop normative frameworks for ethical platform design and governance.",
+      "We analyze the norms, policies, and technical architectures that shape speech, data, commerce, and identity online, and develop normative frameworks for ethical platform design and governance.",
   },
   {
     title: "Data Ethics",
@@ -70,7 +70,7 @@ export default function ResearchPage() {
     <>
       <PageHero
         title="Research"
-        subtitle="Our intellectual focus spans four overlapping areas, united by a commitment to bringing disciplined normative analysis to the study of emerging technologies."
+        subtitle="Our intellectual focus spans four overlapping areas, united by a commitment to bringing the tools of philosophy to the study of emerging technologies."
       />
 
       {/* Research Areas */}

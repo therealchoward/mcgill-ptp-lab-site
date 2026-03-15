@@ -27,7 +27,7 @@ export default function AboutPage() {
               <p className="mt-6 text-[17px] leading-relaxed text-text-secondary">
                 We bring the tools of philosophy to bear on pressing questions
                 in technology ethics and policy. We investigate the
-                interconnections between AI, social media, gaming platforms, and
+                interconnections between AI, social media, biotech, and
                 other emerging technologies, examining how they collectively
                 shape human experience. Our mission is to articulate and help
                 realize the good digital life and just digital society.
@@ -100,9 +100,9 @@ export default function AboutPage() {
                       Interdisciplinary research
                     </strong>{" "}
                     — Original scholarship addressing platform ethics, data
-                    ethics, AI governance, and the mental health impacts of
-                    digital technologies, published in leading philosophy and
-                    interdisciplinary journals.
+                    ethics, AI governance, biotech, and the mental health
+                    impacts of digital technologies, published in leading
+                    philosophy and interdisciplinary journals.
                   </li>
                   <li className="pl-6 border-l-2 border-accent">
                     <strong className="text-foreground">
