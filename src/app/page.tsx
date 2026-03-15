@@ -21,7 +21,7 @@ const researchAreas = [
   {
     title: "AI Ethics & Policy",
     description:
-      "Addressing questions of algorithmic accountability, bias, transparency, and power in AI development.",
+      "Addressing questions of algorithmic accountability, bias and fairness, transparency, and power in AI development.",
     href: "/research",
   },
   {
