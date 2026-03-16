@@ -61,7 +61,7 @@ export default function Home() {
         <div className="max-w-[1200px] mx-auto w-full py-16 md:py-20">
           <ScrollReveal>
             <h1 className="font-serif text-[44px] sm:text-[56px] md:text-[72px] leading-[1.08] tracking-tight max-w-4xl">
-              The McGill Philosophy, Technology &amp; Policy Lab
+              McGill Philosophy, Technology &amp; Policy Lab
             </h1>
           </ScrollReveal>
           <ScrollReveal delay={0.1}>
@@ -147,10 +147,10 @@ export default function Home() {
                         rel="noopener noreferrer"
                         className="hover:text-accent transition-colors"
                       >
-                        {pub.title}.
+                        {pub.title}{pub.title.endsWith("?") ? "" : "."}
                       </a>
                     ) : (
-                      <>{pub.title}.</>
+                      <>{pub.title}{pub.title.endsWith("?") ? "" : "."}</>
                     )}{" "}
                     <span className="italic text-text-secondary">
                       {pub.venue}.
