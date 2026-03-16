@@ -126,8 +126,8 @@ export default function AboutPage() {
                     </strong>{" "}
                     — Direct engagement with policymakers, technologists, and
                     civil society organizations to ensure that governance
-                    frameworks for emerging technologies are grounded in sound
-                    ethical reasoning.
+                    frameworks for emerging technologies are grounded in
+                    rigorous philosophical and ethical analysis.
                   </li>
                 </ul>
               </div>
