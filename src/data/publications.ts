@@ -2,7 +2,10 @@ export interface Publication {
   authors: string;
   year: string;
   title: string;
+  italicTitle?: boolean;
+  venuePrefix?: string;
   venue: string;
+  venueExtra?: string;
   url?: string;
   note?: string;
   clusters: string[];
@@ -13,14 +16,16 @@ export const publications: Publication[] = [
     authors: "Howard, C.",
     year: "n.d.",
     title: "Decentralizing the digital public sphere",
-    venue: "Working paper",
+    venue: "",
+    venueExtra: "Working paper",
     clusters: ["Platform Ethics & Governance"],
   },
   {
     authors: "Howard, C.",
     year: "n.d.",
     title: "Power diffusion through pluralism: The case for decentralized AI",
-    venue: "Working paper",
+    venue: "",
+    venueExtra: "Working paper",
     clusters: ["AI Ethics & Policy"],
   },
   {
@@ -33,7 +38,8 @@ export const publications: Publication[] = [
     clusters: ["Platform Ethics & Governance"],
   },
   {
-    authors: "Paquin, V., Lavallee, Z., Huot-Lavoie, M., Ku, B. S., Díaz-Caneja, C. M., & Gülöksüz, S.",
+    authors:
+      "Paquin, V., Lavallee, Z., Huot-Lavoie, M., Ku, B. S., Díaz-Caneja, C. M., & Gülöksüz, S.",
     year: "2026",
     title:
       "Situating problematic gaming and psychotic-like experiences in the adolescent landscape of affordances",
@@ -45,12 +51,14 @@ export const publications: Publication[] = [
     authors: "Maclure, J., & Morin-Martel, A.",
     year: "2025",
     title: "AI ethics' institutional turn",
-    venue: "Digital Society, 4, 18",
+    venue: "Digital Society, 4",
+    venueExtra: ", 18",
     url: "https://doi.org/10.1007/s44206-025-00174-x",
     clusters: ["AI Ethics & Policy"],
   },
   {
-    authors: "Petropoulos, G., Copoeru, I., Kemp, R., Lavallee, Z., Moskalewicz, M., Westin, A., & Messas, G.",
+    authors:
+      "Petropoulos, G., Copoeru, I., Kemp, R., Lavallee, Z., Moskalewicz, M., Westin, A., & Messas, G.",
     year: "2025",
     title:
       "The unrealized potential of phenomenology in understanding addiction",
@@ -62,7 +70,8 @@ export const publications: Publication[] = [
     authors: "Lavallee, Z., & Osler, L.",
     year: "2024",
     title: "Affordances and the shape of addiction",
-    venue: "Philosophy, Psychiatry, & Psychology, 31(4), 379–395",
+    venue: "Philosophy, Psychiatry, & Psychology, 31",
+    venueExtra: "(4), 379–395",
     clusters: ["Mental Health & Biotech"],
   },
   {
@@ -70,7 +79,8 @@ export const publications: Publication[] = [
     year: "2024",
     title:
       "The role of ethical and social values in psychosocial measurement",
-    venue: "Measurement, 225, 113993",
+    venue: "Measurement, 225",
+    venueExtra: ", 113993",
     url: "https://doi.org/10.1016/j.measurement.2023.113993",
     clusters: ["Data Ethics & Measurement"],
   },
@@ -79,7 +89,8 @@ export const publications: Publication[] = [
     year: "2023",
     title:
       "AI's fairness problem: Understanding wrongful discrimination in the context of automated decision-making",
-    venue: "AI & Ethics, 3(4), 1255–1269",
+    venue: "AI & Ethics, 3",
+    venueExtra: "(4), 1255–1269",
     url: "https://doi.org/10.1007/s43681-022-00233-w",
     clusters: ["AI Ethics & Policy"],
   },
@@ -87,7 +98,8 @@ export const publications: Publication[] = [
     authors: "Lavallee, Z.",
     year: "2023",
     title: "Affective scaffolding in addiction",
-    venue: "Inquiry, 1–29",
+    venue: "Inquiry",
+    venueExtra: ", 1–29",
     clusters: ["Mental Health & Biotech"],
   },
   {
@@ -95,8 +107,10 @@ export const publications: Publication[] = [
     year: "2023",
     title:
       "Target specification bias, counterfactual prediction, and algorithmic fairness in healthcare",
+    venuePrefix: "In ",
     venue:
-      "In Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society (AIES '23) (pp. 312–321). ACM",
+      "Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society (AIES '23)",
+    venueExtra: " (pp. 312–321). ACM",
     url: "https://doi.org/10.1145/3600211.3604678",
     clusters: ["Data Ethics & Measurement"],
   },
@@ -104,7 +118,9 @@ export const publications: Publication[] = [
     authors: "Hirose, I.",
     year: "2022",
     title: "The Ethics of Pandemics: An Introduction",
-    venue: "Routledge",
+    italicTitle: true,
+    venue: "",
+    venueExtra: "Routledge",
     clusters: ["Mental Health & Biotech"],
   },
   {
@@ -112,7 +128,8 @@ export const publications: Publication[] = [
     year: "2021",
     title:
       "AI, explainability and public reason: The argument from the limitations of the human mind",
-    venue: "Minds and Machines, 31(3), 421–438",
+    venue: "Minds and Machines, 31",
+    venueExtra: "(3), 421–438",
     url: "https://doi.org/10.1007/s11023-021-09570-x",
     clusters: ["AI Ethics & Policy"],
   },
@@ -120,8 +137,10 @@ export const publications: Publication[] = [
     authors: "Maclure, J., & Russell, S.",
     year: "2021",
     title: "AI for humanity: The global challenges",
-    venue:
-      "In B. Braunschweig & M. Ghallab (Eds.), Reflections on Artificial Intelligence for Humanity (Lecture Notes in Computer Science, Vol. 12600, pp. 116–126). Springer",
+    venuePrefix: "In B. Braunschweig & M. Ghallab (Eds.), ",
+    venue: "Reflections on Artificial Intelligence for Humanity",
+    venueExtra:
+      " (Lecture Notes in Computer Science, Vol. 12600, pp. 116–126)",
     url: "https://doi.org/10.1007/978-3-030-69128-8_8",
     clusters: ["AI Ethics & Policy"],
   },
@@ -129,14 +148,16 @@ export const publications: Publication[] = [
     authors: "Lavallee, Z.",
     year: "2020",
     title: "Addictive craving: There's more to wanting more",
-    venue: "Philosophy, Psychiatry, & Psychology, 27(3), 227–238",
+    venue: "Philosophy, Psychiatry, & Psychology, 27",
+    venueExtra: "(3), 227–238",
     clusters: ["Mental Health & Biotech"],
   },
   {
     authors: "Maclure, J.",
     year: "2020",
     title: "The new AI spring: A deflationary view",
-    venue: "AI & Society, 35, 747–750",
+    venue: "AI & Society, 35",
+    venueExtra: ", 747–750",
     url: "https://doi.org/10.1007/s00146-019-00912-z",
     clusters: ["AI Ethics & Policy"],
   },
@@ -144,8 +165,8 @@ export const publications: Publication[] = [
     authors: "Tal, E.",
     year: "2020",
     title: "Measurement in science",
-    venue:
-      "In E. N. Zalta (Ed.), Stanford Encyclopedia of Philosophy",
+    venuePrefix: "In E. N. Zalta (Ed.), ",
+    venue: "Stanford Encyclopedia of Philosophy",
     url: "https://plato.stanford.edu/entries/measurement-science/",
     clusters: ["Data Ethics & Measurement"],
   },

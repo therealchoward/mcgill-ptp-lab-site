@@ -51,14 +51,27 @@ function PublicationCitation({
           href={pub.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-accent transition-colors"
+          className={`hover:text-accent transition-colors${pub.italicTitle ? " italic" : ""}`}
         >
-          {pub.title}.
+          {pub.title}{pub.title.endsWith("?") ? "" : "."}
         </a>
       ) : (
-        <>{pub.title}.</>
+        <span className={pub.italicTitle ? "italic" : undefined}>
+          {pub.title}{pub.title.endsWith("?") ? "" : "."}
+        </span>
       )}{" "}
-      <span className="italic text-text-secondary">{pub.venue}.</span>
+      {pub.venuePrefix && (
+        <span className="text-text-secondary">{pub.venuePrefix}</span>
+      )}
+      {pub.venue && (
+        <span className="italic text-text-secondary">{pub.venue}</span>
+      )}
+      {pub.venueExtra && (
+        <span className="text-text-secondary">{pub.venueExtra}</span>
+      )}
+      {(pub.venue || pub.venueExtra) && (
+        <span className="text-text-secondary">.</span>
+      )}
       {pub.note && (
         <>{" "}<span className="text-text-secondary">{pub.note}</span></>
       )}
