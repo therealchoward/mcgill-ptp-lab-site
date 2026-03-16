@@ -101,7 +101,8 @@ export default function AboutPage() {
                     </strong>{" "}
                     — Original scholarship addressing platform ethics, data
                     ethics, AI governance, and the mental health impacts of
-                    digital technologies.
+                    digital technologies, published in leading philosophy and
+                    interdisciplinary journals.
                   </li>
                   <li className="pl-6 border-l-2 border-accent">
                     <strong className="text-foreground">
