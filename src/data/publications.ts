@@ -4,6 +4,7 @@ export interface Publication {
   title: string;
   venue: string;
   url?: string;
+  note?: string;
   clusters: string[];
 }
 
@@ -26,7 +27,8 @@ export const publications: Publication[] = [
     authors: "Howard, C.",
     year: "2026",
     title: "Rational feelings for virtual things?",
-    venue: "Philosophical Issues. Advance online publication",
+    venue: "Philosophical Issues",
+    note: "Advance online publication.",
     url: "https://onlinelibrary.wiley.com/doi/10.1111/phis.70007",
     clusters: ["Platform Ethics & Governance"],
   },

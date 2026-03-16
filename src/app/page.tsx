@@ -155,6 +155,9 @@ export default function Home() {
                     <span className="italic text-text-secondary">
                       {pub.venue}.
                     </span>
+                    {pub.note && (
+                      <>{" "}<span className="text-text-secondary">{pub.note}</span></>
+                    )}
                   </p>
                 </div>
               </ScrollReveal>
