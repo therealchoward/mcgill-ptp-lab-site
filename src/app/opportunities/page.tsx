@@ -33,7 +33,7 @@ export default function OpportunitiesPage() {
                 <p>
                   In the meantime, we welcome engagement from students and faculty who are interested in
                   participating in our events, exploring research collaborations,
-                  or partnering with the lab. Please reach out to discuss how you
+                  or partnering with the Lab. Please reach out to discuss how you
                   might get involved.
                 </p>
               </div>

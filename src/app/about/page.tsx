@@ -100,9 +100,8 @@ export default function AboutPage() {
                       Interdisciplinary research
                     </strong>{" "}
                     — Original scholarship addressing platform ethics, data
-                    ethics, AI governance, biotech, and the mental health
-                    impacts of digital technologies, published in leading
-                    philosophy and interdisciplinary journals.
+                    ethics, AI governance, and the mental health impacts of
+                    digital technologies.
                   </li>
                   <li className="pl-6 border-l-2 border-accent">
                     <strong className="text-foreground">
