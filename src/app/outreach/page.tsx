@@ -12,7 +12,7 @@ const initiatives = [
   {
     title: "The Normative Network",
     description:
-      "The Normative Network is the Lab's blog, exploring questions at the intersection of ethics, tech, and policy. It features research insights, commentary, and analysis from lab members and external researchers on topics across all of the Lab's research pillars.",
+      "The Normative Network is the Lab's blog, exploring questions at the intersection of ethics, tech, and policy. It features research insights, commentary, and analysis from Lab members and external researchers on topics across all of the Lab's research pillars.",
     lead: "Radheesh Ameresekere",
     link: "https://substack.com/@thenormativenetwork",
     linkLabel: "Read on Substack",
