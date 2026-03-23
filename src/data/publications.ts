@@ -29,6 +29,39 @@ export const publications: Publication[] = [
     clusters: ["AI Ethics & Policy"],
   },
   {
+    authors: "Cossette-Lefebvre, H.",
+    year: "Forthcoming",
+    title:
+      "Le contenu généré par l'IA a-t-il de la valeur? IA génératives, le statut d'auteur, et autonomie personnelle",
+    venuePrefix: "In L. Langlois (Ed.), ",
+    venue: "IA générative, culture et médias",
+    venueExtra: ". Presses de l'Université Laval",
+    clusters: ["AI Ethics & Policy"],
+  },
+  {
+    authors: "Cossette-Lefebvre, H.",
+    year: "Forthcoming",
+    title:
+      "Dépendance épistémique et liberté d'expression dans la sphère publique numérique",
+    venuePrefix:
+      "In M. Potvin, M. Lacroix, & J.-F. Gaudreault-Desbiens (Eds.), ",
+    venue:
+      "Savoirs, science, liberté académique, et liberté d'expression au Canada",
+    venueExtra: ". Presses de l'Université de Montréal",
+    clusters: ["Platform Ethics & Governance"],
+  },
+  {
+    authors: "Cossette-Lefebvre, H., & Stoljar, N.",
+    year: "2026",
+    title: "Recommender systems and relational autonomy",
+    venuePrefix:
+      "In M. Anzalone, F. Battaglia, S. Achella, & A. Donise (Eds.), ",
+    venue:
+      "Reconfiguring Human Autonomy. Conceptual Challenges and Ethical Implications in the Age of AI",
+    venueExtra: ". Springer Nature",
+    clusters: ["Platform Ethics & Governance"],
+  },
+  {
     authors: "Howard, C.",
     year: "2026",
     title: "Rational feelings for virtual things?",
@@ -45,6 +78,32 @@ export const publications: Publication[] = [
       "Situating problematic gaming and psychotic-like experiences in the adolescent landscape of affordances",
     venue: "Journal of Behavioral Addictions",
     url: "https://doi.org/10.1101/2025.03.24.25324546",
+    clusters: ["Mental Health & Biotech"],
+  },
+  {
+    authors: "Cossette-Lefebvre, H., & Lippert-Rasmussen, K.",
+    year: "2025",
+    title:
+      "Neither direct nor indirect: Understanding proxy-based algorithmic discrimination",
+    venue: "The Journal of Ethics",
+    clusters: ["AI Ethics & Policy"],
+  },
+  {
+    authors: "Cossette-Lefebvre, H.",
+    year: "2025",
+    title:
+      "The social turn in the ethics of AI: Between deliberation and relational justice",
+    venuePrefix: "In M. Hähnel (Ed.), ",
+    venue: "Blackwell Companion on the Applied Philosophy of AI",
+    clusters: ["AI Ethics & Policy"],
+  },
+  {
+    authors:
+      "Cossette-Lefebvre, H., Maclure, J., Vold, K., Facal, C., & Dumont, I.",
+    year: "2025",
+    title:
+      "Avatars numériques post-mortem et deuil: Un point de vue éthique",
+    venue: "Psychologie Québec",
     clusters: ["Mental Health & Biotech"],
   },
   {

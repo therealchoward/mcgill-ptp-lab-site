@@ -55,6 +55,12 @@ export const members: Member[] = [
     category: "postdoc",
   },
   {
+    name: "Hugo Cossette-Lefebvre",
+    role: "Postdoctoral Researcher @ McGill University",
+    photo: "/images/members/hugo.png",
+    category: "postdoc",
+  },
+  {
     name: "Mark Xiao",
     role: "Social Media Manager",
     photo: "/images/members/xiao.jpeg",
