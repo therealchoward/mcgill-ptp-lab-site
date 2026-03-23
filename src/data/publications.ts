@@ -53,12 +53,13 @@ export const publications: Publication[] = [
   {
     authors: "Cossette-Lefebvre, H., & Stoljar, N.",
     year: "2026",
-    title: "Recommender systems and relational autonomy",
+    title: "Automated gatekeepers: How recommender systems shape and constrain autonomy",
     venuePrefix:
-      "In M. Anzalone, F. Battaglia, S. Achella, & A. Donise (Eds.), ",
+      "In M. Anzalone, S. Achella, F. Battaglia, & A. Donise (Eds.), ",
     venue:
-      "Reconfiguring Human Autonomy. Conceptual Challenges and Ethical Implications in the Age of AI",
-    venueExtra: ". Springer Nature",
+      "Reconfiguring Human Autonomy: Conceptual Challenges and Ethical Implications in the Age of AI",
+    venueExtra: " (Integrated Science, Vol. 40). Springer Nature",
+    url: "https://doi.org/10.1007/978-3-032-14537-6_4",
     clusters: ["Platform Ethics & Governance"],
   },
   {
@@ -84,8 +85,10 @@ export const publications: Publication[] = [
     authors: "Cossette-Lefebvre, H., & Lippert-Rasmussen, K.",
     year: "2025",
     title:
-      "Neither direct nor indirect: Understanding proxy-based algorithmic discrimination",
-    venue: "The Journal of Ethics",
+      "Neither direct, nor indirect: Understanding proxy-based algorithmic discrimination",
+    venue: "The Journal of Ethics, 29",
+    venueExtra: ", 719–745",
+    url: "https://doi.org/10.1007/s10892-025-09520-0",
     clusters: ["AI Ethics & Policy"],
   },
   {
@@ -93,8 +96,10 @@ export const publications: Publication[] = [
     year: "2025",
     title:
       "The social turn in the ethics of AI: Between deliberation and relational justice",
-    venuePrefix: "In M. Hähnel (Ed.), ",
-    venue: "Blackwell Companion on the Applied Philosophy of AI",
+    venuePrefix: "In M. Hähnel & R. Müller (Eds.), ",
+    venue: "A Companion to Applied Philosophy of AI",
+    venueExtra: " (pp. 295–309). Wiley-Blackwell",
+    url: "https://doi.org/10.1002/9781394238651.ch21",
     clusters: ["AI Ethics & Policy"],
   },
   {
@@ -104,6 +109,7 @@ export const publications: Publication[] = [
     title:
       "Avatars numériques post-mortem et deuil: Un point de vue éthique",
     venue: "Psychologie Québec",
+    url: "https://www.ordrepsy.qc.ca/-/avatars-numeriques-post-mortem-et-deuil-un-point-de-vue-ethique",
     clusters: ["Mental Health & Biotech"],
   },
   {
