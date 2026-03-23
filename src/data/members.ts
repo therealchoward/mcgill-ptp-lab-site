@@ -2,7 +2,7 @@ export interface Member {
   name: string;
   role: string;
   photo: string;
-  category: "leadership" | "faculty" | "postdoc" | "graduate" | "undergraduate";
+  category: "leadership" | "faculty" | "postdoc" | "graduate" | "staff" | "undergraduate";
 }
 
 export const members: Member[] = [
@@ -53,6 +53,12 @@ export const members: Member[] = [
     role: "Postdoctoral Researcher @ McGill University",
     photo: "/images/members/lavallee.jpg",
     category: "postdoc",
+  },
+  {
+    name: "Mark Xiao",
+    role: "Social Media Manager",
+    photo: "/images/members/xiao.jpeg",
+    category: "staff",
   },
   {
     name: "Radheesh Ameresekere",
