@@ -28,9 +28,11 @@ export default function AboutPage() {
                 We bring the tools of philosophy to bear on pressing questions
                 in technology ethics and policy. We work across AI, social
                 media, biotech, and other emerging technologies, examining
-                how they collectively shape human experience. Our mission is
-                to articulate and help realize the good digital life and just
-                digital society.
+                how they collectively shape human experience.
+              </p>
+              <p className="mt-4 text-[17px] leading-relaxed text-text-secondary">
+                Our mission is to articulate and help realize the good digital
+                life and just digital society.
               </p>
             </div>
           </ScrollReveal>
@@ -100,7 +102,7 @@ export default function AboutPage() {
                       Interdisciplinary research
                     </strong>{" "}
                     — Original scholarship on platform ethics, data ethics,
-                    AI governance, biotech, and the mental health impacts of
+                    AI governance, biotech ethics, and the mental health impacts of
                     digital technologies.
                   </li>
                   <li className="pl-6 border-l-2 border-accent">
