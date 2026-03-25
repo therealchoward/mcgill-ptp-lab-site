@@ -26,11 +26,11 @@ export default function AboutPage() {
               </h2>
               <p className="mt-6 text-[17px] leading-relaxed text-text-secondary">
                 We bring the tools of philosophy to bear on pressing questions
-                in technology ethics and policy. We investigate the
-                interconnections between AI, social media, biotech, and
-                other emerging technologies, examining how they collectively
-                shape human experience. Our mission is to articulate and help
-                realize the good digital life and just digital society.
+                in technology ethics and policy. We work across AI, social
+                media, biotech, and other emerging technologies, examining
+                how they collectively shape human experience. Our mission is
+                to articulate and help realize the good digital life and just
+                digital society.
               </p>
             </div>
           </ScrollReveal>
@@ -72,7 +72,7 @@ export default function AboutPage() {
                   The Lab exists to fill this need. We bring the depth,
                   precision, and clarity of philosophical inquiry to questions
                   that are too often addressed superficially or abandoned to
-                  purely technical solution-making. Our work is driven by the
+                  purely technical problem-solving. Our work is driven by the
                   conviction that good technology policy requires good
                   philosophy — and that the stakes of getting it wrong have
                   never been higher.
@@ -99,17 +99,16 @@ export default function AboutPage() {
                     <strong className="text-foreground">
                       Interdisciplinary research
                     </strong>{" "}
-                    — Original scholarship addressing platform ethics, data
-                    ethics, AI governance, and the mental health impacts of
-                    digital technologies, published in leading philosophy and
-                    interdisciplinary journals.
+                    — Original scholarship on platform ethics, data ethics,
+                    AI governance, biotech, and the mental health impacts of
+                    digital technologies.
                   </li>
                   <li className="pl-6 border-l-2 border-accent">
                     <strong className="text-foreground">
                       Student training
                     </strong>{" "}
-                    — Graduate and undergraduate fellowships that develop the
-                    next generation of scholars and practitioners working at the
+                    — Graduate and undergraduate fellowships developing the
+                    next generation of scholars and practitioners at the
                     intersection of philosophy, technology, and policy.
                   </li>
                   <li className="pl-6 border-l-2 border-accent">
@@ -117,17 +116,17 @@ export default function AboutPage() {
                       Public outreach
                     </strong>{" "}
                     — A blog, podcast, workshops, and public events that
-                    communicate the Lab&apos;s research to broader audiences and
-                    contribute to informed public discourse.
+                    make the Lab&apos;s research accessible to broader
+                    audiences.
                   </li>
                   <li className="pl-6 border-l-2 border-accent">
                     <strong className="text-foreground">
                       Policy engagement
                     </strong>{" "}
                     — Direct engagement with policymakers, technologists, and
-                    civil society organizations to ensure that governance
-                    frameworks for emerging technologies are grounded in
-                    rigorous philosophical and ethical analysis.
+                    civil society to ensure that governance frameworks for
+                    emerging technologies are informed by rigorous ethical
+                    analysis.
                   </li>
                 </ul>
               </div>
