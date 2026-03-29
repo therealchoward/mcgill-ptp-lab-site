@@ -13,7 +13,7 @@ export default function OpportunitiesPage() {
     <>
       <PageHero
         title="Opportunities"
-        subtitle="Join us in shaping the ethical landscape of transformative technologies."
+        subtitle="Current and upcoming ways to get involved."
       />
 
       <section className="px-6 pb-24 md:pb-32">
