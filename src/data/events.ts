@@ -14,6 +14,13 @@ export const events: Event[] = [
     note: "By invitation only.",
   },
   {
+    title: "Next Steps for AI Welfare Research and Policy",
+    description:
+      "A lecture by Jeff Sebo exploring the future of AI welfare research and policy. Open to the public, no registration required.",
+    date: "April 23, 2026, 4:00–6:00 PM",
+    note: "Leacock Building, Room 26, 855 Sherbrooke Street West.",
+  },
+  {
     title: "PTP Lab Undergraduate Fellows Workshop",
     description:
       "The Undergraduate Fellows Workshop features presentations from the Lab's undergraduate fellows on issues in technology and policy, with commentary and feedback from our graduate fellows. Presented papers will be published, pending final review, in the McGill undergraduate philosophy journal <em>Fragments</em>.",
