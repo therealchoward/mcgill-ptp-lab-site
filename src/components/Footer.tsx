@@ -70,7 +70,7 @@ export function Footer() {
             </p>
             <p className="text-sm leading-relaxed text-white/60">
               The Philosophy, Technology &amp; Policy Lab at McGill University.
-              Advancing ethical technology design, governance, and policy.
+              Philosophy for the technologies reshaping public life.
             </p>
           </div>
 

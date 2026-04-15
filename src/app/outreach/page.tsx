@@ -12,7 +12,7 @@ const initiatives = [
   {
     title: "The Normative Network",
     description:
-      "The Normative Network is the Lab's blog, exploring questions at the intersection of ethics, tech, and policy. It features research insights, commentary, and analysis from Lab members and external researchers on topics across all of the Lab's research pillars.",
+      "The Normative Network is the Lab's blog, exploring the ethical and political dimensions of emerging technologies. It features research insights, commentary, and analysis from Lab members and external researchers on topics across all of the Lab's research pillars.",
     lead: "Radheesh Ameresekere",
     link: "https://substack.com/@thenormativenetwork",
     linkLabel: "Read on Substack",
@@ -26,7 +26,7 @@ const initiatives = [
   {
     title: "PTP Lab Podcast",
     description:
-      "The PTP Lab Podcast features in-depth conversations with researchers and experts who contribute to The Normative Network blog. Each episode explores cutting-edge thinking about platform governance, AI ethics, data policy, and other urgent questions where philosophy, tech, and policy converge.",
+      "The PTP Lab Podcast features in-depth conversations with researchers and experts who contribute to The Normative Network blog. Each episode explores topics across the Lab's research areas.",
     lead: "Alexander Carty",
     link: "https://www.youtube.com/@McGillPTPLab",
     linkLabel: "Watch on YouTube",

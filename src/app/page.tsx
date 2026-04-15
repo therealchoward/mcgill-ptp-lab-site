@@ -36,7 +36,7 @@ const outreachItems = [
   {
     title: "The Normative Network",
     description:
-      "Our blog exploring questions at the intersection of ethics, tech, and policy.",
+      "Our blog exploring the ethical and political dimensions of emerging technologies.",
   },
   {
     title: "PTP Lab Podcast",
@@ -66,7 +66,7 @@ export default function Home() {
           </ScrollReveal>
           <ScrollReveal delay={0.1}>
             <p className="mt-6 text-lg md:text-xl font-medium text-text-secondary max-w-2xl">
-              Advancing ethical technology design, governance, and policy
+              Philosophy for the technologies reshaping public life
             </p>
           </ScrollReveal>
           <ScrollReveal delay={0.2}>

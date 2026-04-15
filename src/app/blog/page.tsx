@@ -22,7 +22,7 @@ export default function BlogPage() {
               </h2>
               <p className="mt-6 text-[17px] leading-relaxed text-text-secondary">
                 The Normative Network is the Lab&apos;s ideas forum — featuring
-                research insights, commentary, and analysis from lab members
+                research insights, commentary, and analysis from Lab members
                 and external contributors.
               </p>
               <a
