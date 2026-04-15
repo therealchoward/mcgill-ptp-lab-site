@@ -244,7 +244,7 @@ export default function Home() {
               Public Engagement
             </h2>
             <p className="mt-6 text-[17px] text-text-secondary max-w-2xl leading-relaxed">
-              We bring rigorous philosophical analysis of emerging technologies
+              We bring rigorous philosophical analysis
               to broad audiences through our workshops, blog, podcast, and public
               events.
             </p>

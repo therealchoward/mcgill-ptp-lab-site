@@ -44,7 +44,7 @@ export default function OutreachPage() {
     <>
       <PageHero
         title="Outreach"
-        subtitle="We bring rigorous philosophical analysis of emerging technologies to broad audiences through our workshops, blog, podcast, and public events."
+        subtitle="We bring rigorous philosophical analysis to broad audiences through our workshops, blog, podcast, and public events."
       />
 
       <section className="px-6 pb-24 md:pb-32">
