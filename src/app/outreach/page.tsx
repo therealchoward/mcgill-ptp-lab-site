@@ -26,7 +26,7 @@ const initiatives = [
   {
     title: "PTP Lab Podcast",
     description:
-      "The PTP Lab Podcast features in-depth conversations with researchers and experts who contribute to The Normative Network blog. Each episode explores topics across the Lab's research areas.",
+      "The PTP Lab Podcast features in-depth conversations with researchers and experts who contribute to The Normative Network blog. Each episode explores the ethics and politics of AI, social media, and other emerging technologies.",
     lead: "Alexander Carty",
     link: "https://www.youtube.com/@McGillPTPLab",
     linkLabel: "Watch on YouTube",
