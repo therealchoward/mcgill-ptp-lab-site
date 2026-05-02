@@ -44,7 +44,7 @@ const outreachItems = [
       "In-depth conversations with scholars working in the Lab's research areas.",
   },
   {
-    title: "AI Myths & Misinformation Workshop",
+    title: "AI Myths & Misinformation Initiative",
     description:
       "Examining popular misconceptions about AI using the toolkit of analytic epistemology.",
   },
