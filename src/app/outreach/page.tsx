@@ -32,9 +32,9 @@ const initiatives = [
     linkLabel: "Watch on YouTube",
   },
   {
-    title: "AI Myths and Misinformation Workshop",
+    title: "AI Myths and Misinformation Initiative",
     description:
-      "The AI Myths and Misinformation Workshop brings together philosophers, cognitive scientists, social scientists, and computer scientists to examine popular misconceptions about artificial intelligence using the toolkit of analytic epistemology. Findings are shared through public-facing materials, including an upcoming short documentary.",
+      "The AI Myths and Misinformation Initiative brings together philosophers, cognitive scientists, social scientists, and computer scientists to examine popular misconceptions about AI using the toolkit of analytic epistemology. Findings are shared through public-facing materials, including an upcoming short documentary.",
     lead: "Maryna Nekrasova",
   },
 ];
