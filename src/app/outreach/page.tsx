@@ -34,7 +34,7 @@ const initiatives = [
   {
     title: "AI Myths and Misinformation Workshop",
     description:
-      "The AI Myths and Misinformation Workshop brings together philosophers, cognitive scientists, social scientists, and computer scientists to examine popular misconceptions about artificial intelligence using the toolkit of analytic epistemology. Findings are shared through public-facing publications.",
+      "The AI Myths and Misinformation Workshop brings together philosophers, cognitive scientists, social scientists, and computer scientists to examine popular misconceptions about artificial intelligence using the toolkit of analytic epistemology. Findings are shared through public-facing materials, including an upcoming short documentary.",
     lead: "Maryna Nekrasova",
   },
 ];
