@@ -86,7 +86,7 @@ export default function ResearchPage() {
     <>
       <PageHero
         title="Research"
-        subtitle="Our intellectual focus spans four overlapping areas, united by a commitment to bringing the tools of philosophy to the study of emerging technologies."
+        subtitle="Our intellectual focus spans four overlapping areas, united by our commitment to bringing the tools of philosophy to the study of emerging technologies."
       />
 
       {/* Research Areas */}
