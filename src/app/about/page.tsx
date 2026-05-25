@@ -5,7 +5,7 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Learn about the McGill PTP Lab — our mission, our approach, and why philosophy-informed technology policy matters now more than ever.",
+    "Learn about the McGill PTP Lab — our mission, our approach, and why philosophy belongs in technology policy.",
 };
 
 export default function AboutPage() {
@@ -115,17 +115,16 @@ export default function AboutPage() {
                       Public outreach
                     </strong>{" "}
                     — A blog, podcast, workshops, and public events that
-                    make the Lab&apos;s research accessible to broader
+                    make the Lab&apos;s research accessible to broad
                     audiences.
                   </li>
                   <li className="pl-6 border-l-2 border-accent">
                     <strong className="text-foreground">
                       Policy engagement
                     </strong>{" "}
-                    — Direct engagement with policymakers, technologists, and
+                    — Working directly with policymakers, technologists, and
                     civil society to ensure that governance frameworks for
-                    emerging technologies are informed by rigorous ethical
-                    analysis.
+                    emerging technologies are informed by ethical analysis.
                   </li>
                 </ul>
               </div>

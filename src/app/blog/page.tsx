@@ -5,7 +5,7 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "The Normative Network — the McGill PTP Lab's ideas forum featuring research insights, commentary, and analysis on technology ethics and policy.",
+    "The Normative Network — the McGill PTP Lab's blog featuring research insights, commentary, and analysis on technology ethics and policy.",
 };
 
 export default function BlogPage() {
@@ -21,7 +21,7 @@ export default function BlogPage() {
                 The Normative Network
               </h2>
               <p className="mt-6 text-[17px] leading-relaxed text-text-secondary">
-                The Normative Network is the Lab&apos;s ideas forum — featuring
+                The Normative Network is the Lab&apos;s blog, featuring
                 research insights, commentary, and analysis from Lab members
                 and external contributors.
               </p>

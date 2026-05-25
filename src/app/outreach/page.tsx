@@ -5,14 +5,14 @@ import { ScrollReveal } from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: "Outreach",
   description:
-    "The McGill PTP Lab's public-facing initiatives — blog, podcast, glossary, and workshops bringing philosophical analysis to broader audiences.",
+    "The McGill PTP Lab's public-facing initiatives — blog, podcast, lexicon, and documentary project — bringing philosophical analysis to broad audiences.",
 };
 
 const initiatives = [
   {
     title: "The Normative Network",
     description:
-      "The Normative Network is the Lab's blog, exploring the ethical and political dimensions of emerging technologies. It features research insights, commentary, and analysis from Lab members and external researchers on topics across all of the Lab's research pillars.",
+      "The Normative Network is the Lab's blog, exploring the ethical and political dimensions of emerging technologies. It features research insights, commentary, and analysis from Lab members and external researchers on topics across all of the Lab's research areas.",
     lead: "Radheesh Ameresekere",
     link: "https://substack.com/@thenormativenetwork",
     linkLabel: "Read on Substack",
@@ -20,14 +20,14 @@ const initiatives = [
   {
     title: "A Philosophical Lexicon of Machine Learning",
     description:
-      "The Philosophical Lexicon of Machine Learning is a glossary designed to make machine learning concepts accessible to humanities scholars and ethicists. Each entry explains technical concepts — from neural networks to gradient descent — in clear language that bridges computer science and the humanities.",
+      "The Philosophical Lexicon of Machine Learning is a glossary designed to make machine learning concepts accessible to humanities scholars. Each entry explains technical concepts — from neural networks to gradient descent — in clear language that bridges computer science and the humanities.",
     lead: "Asya Ciftci",
   },
   {
     title: "PTP Lab Podcast",
     description:
       "The PTP Lab Podcast features in-depth conversations with researchers and experts who contribute to The Normative Network blog. Each episode explores the ethics and politics of AI, social media, and other emerging technologies.",
-    lead: "Alexander Carty",
+    lead: "Alex Carty",
     link: "https://www.youtube.com/@McGillPTPLab",
     linkLabel: "Watch on YouTube",
   },
@@ -44,7 +44,7 @@ export default function OutreachPage() {
     <>
       <PageHero
         title="Outreach"
-        subtitle="We bring rigorous philosophical analysis to broad audiences through our workshops, blog, podcast, and public events."
+        subtitle="We bring philosophical analysis to broad audiences through our workshops, blog, podcast, and public events."
       />
 
       <section className="px-6 pb-24 md:pb-32">

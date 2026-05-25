@@ -120,7 +120,7 @@ export default function ResearchPage() {
           <ScrollReveal>
             <SectionLabel number="02" label="Publications" />
             <h2 className="font-serif text-[36px] md:text-[44px] leading-tight mt-2">
-              Scholarly Output
+              Publications
             </h2>
           </ScrollReveal>
 
@@ -159,7 +159,7 @@ export default function ResearchPage() {
                 onClick={() => setShowAll(!showAll)}
                 className="text-[14px] font-medium text-accent hover:underline"
               >
-                {showAll ? "Collapse" : "Expand all"}
+                {showAll ? "Collapse all" : "Expand all"}
               </button>
             </div>
           </ScrollReveal>
@@ -185,7 +185,7 @@ export default function ResearchPage() {
                 onClick={() => setShowAll(true)}
                 className="text-accent hover:underline"
               >
-                Show all
+                Expand all
               </button>
             </p>
           )}

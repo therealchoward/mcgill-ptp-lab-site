@@ -7,7 +7,7 @@ import { members } from "@/data/members";
 export const metadata: Metadata = {
   title: "Members",
   description:
-    "Meet the team — philosophers, technologists, and policy experts investigating the ethical dimensions of AI, social media, gaming, and emerging technologies.",
+    "Meet the team — philosophers, technologists, and policy experts investigating the ethical and political dimensions of AI, social media, biotech, and other emerging technologies.",
 };
 
 export default function MembersPage() {
