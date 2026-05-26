@@ -86,7 +86,7 @@ export default function ResearchPage() {
     <>
       <PageHero
         title="Research"
-        subtitle="Our intellectual focus spans four overlapping areas, united by our commitment to bringing the tools of philosophy to the study of emerging technologies."
+        subtitle="Our intellectual focus spans four overlapping areas, united by our commitment to applying the tools of philosophy to the study of emerging technologies."
       />
 
       {/* Research Areas */}
@@ -120,7 +120,7 @@ export default function ResearchPage() {
           <ScrollReveal>
             <SectionLabel number="02" label="Publications" />
             <h2 className="font-serif text-[36px] md:text-[44px] leading-tight mt-2">
-              Publications
+              Selected Work
             </h2>
           </ScrollReveal>
 
