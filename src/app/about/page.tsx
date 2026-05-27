@@ -56,7 +56,7 @@ export default function AboutPage() {
                   platforms shape the information environment for billions, with
                   profound effects on mental health, political discourse, and
                   social cohesion. The decisions being made now about how these
-                  technologies are designed, regulated, and governed will have
+                  technologies are designed and governed will have
                   lasting consequences.
                 </p>
                 <p>
