@@ -86,7 +86,7 @@ export default function ResearchPage() {
     <>
       <PageHero
         title="Research"
-        subtitle="Four overlapping areas of philosophical inquiry into emerging technologies."
+        subtitle="Philosophical inquiry into emerging technologies."
       />
 
       {/* Research Areas */}
