@@ -49,8 +49,9 @@ export default function AboutPage() {
                 <p>
                   We are living through a period of rapid and consequential
                   technological change. Artificial intelligence systems are
-                  being deployed across healthcare, criminal justice, education,
-                  and government institutions — often without adequate ethical
+                  being deployed across a growing range of high-stakes
+                  domains — healthcare, criminal justice, education, hiring,
+                  and government among them — often without adequate ethical
                   scrutiny or meaningful public deliberation. Social media
                   platforms shape the information environment for billions, with
                   profound effects on mental health, political discourse, and
@@ -123,8 +124,9 @@ export default function AboutPage() {
                       Policy engagement
                     </strong>{" "}
                     — Working directly with policymakers, technologists, and
-                    civil society to ensure that governance frameworks for
-                    emerging technologies are informed by ethical analysis.
+                    civil society organizations to ensure that governance
+                    frameworks for emerging technologies are informed by
+                    ethical analysis.
                   </li>
                 </ul>
               </div>

@@ -32,19 +32,19 @@ export const members: Member[] = [
   },
   {
     name: "Jocelyn Maclure",
-    role: "Professor and Jarislowsky Chair in Human Nature and Technology @ McGill University",
+    role: "Professor of Philosophy and Jarislowsky Chair in Human Nature and Technology @ McGill University",
     photo: "/images/members/maclure.jpg",
     category: "faculty",
   },
   {
     name: "Dirk Schlimm",
-    role: "Associate Professor and Associate Member in the School of CS @ McGill University",
+    role: "Associate Professor of Philosophy and Associate Member in the School of Computer Science @ McGill University",
     photo: "/images/members/schlimm.jpg",
     category: "faculty",
   },
   {
     name: "Eran Tal",
-    role: "Associate Professor and Canada Research Chair in Data Ethics @ McGill University",
+    role: "Associate Professor of Philosophy and Canada Research Chair in Data Ethics @ McGill University",
     photo: "/images/members/tal.jpg",
     category: "faculty",
   },
