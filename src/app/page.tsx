@@ -244,9 +244,7 @@ export default function Home() {
               Public Engagement
             </h2>
             <p className="mt-6 text-[17px] text-text-secondary max-w-2xl leading-relaxed">
-              We bring philosophical analysis
-              to broad audiences through our workshops, blog, podcast, and public
-              events.
+              Bringing philosophical analysis to broad audiences.
             </p>
           </ScrollReveal>
           <div className="mt-10 space-y-6">
