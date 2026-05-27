@@ -14,7 +14,7 @@ export default function EventsPage() {
     <>
       <PageHero
         title="Events"
-        subtitle="Workshops, talks, and conferences on the ethics of emerging technologies."
+        subtitle="Workshops, talks, and conferences on philosophy, technology, and policy."
       />
 
       <section className="px-6 pb-24 md:pb-32">

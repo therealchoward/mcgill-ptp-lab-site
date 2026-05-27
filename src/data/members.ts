@@ -8,7 +8,7 @@ export interface Member {
 export const members: Member[] = [
   {
     name: "Chris Howard",
-    role: "Director, Associate Professor of Philosophy @ McGill University",
+    role: "Director, Associate Professor @ McGill University",
     photo: "/images/members/howard.jpg",
     category: "leadership",
   },
@@ -38,7 +38,7 @@ export const members: Member[] = [
   },
   {
     name: "Dirk Schlimm",
-    role: "Associate Professor of Philosophy and Associate Member in the School of Computer Science @ McGill University",
+    role: "Associate Professor of Philosophy and Associate Member in the School of CS @ McGill University",
     photo: "/images/members/schlimm.jpg",
     category: "faculty",
   },
