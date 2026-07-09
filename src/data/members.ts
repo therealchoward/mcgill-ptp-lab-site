@@ -49,6 +49,12 @@ export const members: Member[] = [
     category: "faculty",
   },
   {
+    name: "Vincent Paquin",
+    role: "Assistant Professor in the Division of Social Psychiatry and Transcultural Psychiatry @ McGill University and Psychiatrist and Researcher at the Lady Davis Institute for Medical Research, Jewish General Hospital",
+    photo: "/images/members/paquin.jpg",
+    category: "faculty",
+  },
+  {
     name: "Zoey Lavallee",
     role: "Postdoctoral Researcher @ McGill University",
     photo: "/images/members/lavallee.jpg",
@@ -106,12 +112,6 @@ export const members: Member[] = [
     name: "Lindsay Cobb",
     role: "Undergraduate Fellow",
     photo: "/images/members/cobb.jpg",
-    category: "undergraduate",
-  },
-  {
-    name: "Simon Leff",
-    role: "Undergraduate Fellow",
-    photo: "/images/members/leff.jpg",
     category: "undergraduate",
   },
 ];
