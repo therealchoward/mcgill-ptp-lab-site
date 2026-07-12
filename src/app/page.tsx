@@ -27,7 +27,7 @@ const researchAreas = [
   {
     title: "Mental Health & Biotech",
     description:
-      "Investigating technology-induced psychological harms, the ethics of digital mental health interventions, neurotechnology, and the ethics of enhancement.",
+      "Investigating technology-induced psychological harms, the ethics of digital mental health interventions, and the ethics of enhancement.",
     href: "/research",
   },
 ];
@@ -267,17 +267,6 @@ export default function Home() {
               Explore our outreach
               <span aria-hidden="true">&rarr;</span>
             </Link>
-          </ScrollReveal>
-        </div>
-      </section>
-
-      {/* Closing Statement */}
-      <section className="bg-dark-bg px-6 py-16 md:py-20">
-        <div className="max-w-[1200px] mx-auto">
-          <ScrollReveal>
-            <p className="font-serif text-[28px] md:text-[36px] leading-tight text-white text-center">
-              Good technology policy requires good philosophy.
-            </p>
           </ScrollReveal>
         </div>
       </section>

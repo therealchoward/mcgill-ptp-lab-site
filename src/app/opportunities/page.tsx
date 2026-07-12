@@ -25,11 +25,6 @@ export default function OpportunitiesPage() {
               </h2>
               <div className="mt-6 space-y-6 text-[17px] leading-relaxed text-text-secondary">
                 <p>
-                  Fellowships train students to put the tools of philosophy to
-                  work wherever they land — in government, industry, or
-                  academia.
-                </p>
-                <p>
                   The Lab selects four philosophy graduate fellows and four
                   undergraduate fellows annually to participate in our research
                   initiatives and collaborative projects. The next fellowship

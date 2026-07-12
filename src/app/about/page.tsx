@@ -72,13 +72,11 @@ export default function AboutPage() {
                   the challenge.
                 </p>
                 <p>
-                  The Lab exists to close this gap. We bring the depth,
+                  The Lab exists to fill this need. We bring the depth,
                   precision, and clarity of philosophical inquiry to questions
-                  that demand more than purely technical answers.
-                </p>
-                <p className="pl-6 border-l-2 border-accent font-serif text-[22px] md:text-[26px] leading-snug text-foreground">
-                  Our work is driven by the conviction that good technology
-                  policy requires good philosophy.
+                  that demand more than purely technical answers. Our work is
+                  driven by the conviction that good technology policy requires
+                  good philosophy.
                 </p>
               </div>
             </div>
@@ -120,7 +118,7 @@ export default function AboutPage() {
                       Engagement
                     </strong>{" "}
                     — Our public-facing arm — a blog, podcast, and public
-                    events — builds awareness of these issues and of
+                    events — builds awareness of the issues we study and of
                     philosophy&apos;s role in navigating them. Our
                     policy-oriented arm works directly with policymakers,
                     technologists, and civil society organizations to ensure
