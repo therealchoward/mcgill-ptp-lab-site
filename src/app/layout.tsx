@@ -17,6 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.mcgillptplab.com"),
   title: {
     default: "McGill Philosophy, Technology & Policy Lab",
     template: "%s | McGill PTP Lab",
@@ -29,6 +30,17 @@ export const metadata: Metadata = {
       "The McGill PTP Lab brings the tools of philosophy to bear on pressing questions in digital ethics and politics.",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "McGill Philosophy, Technology & Policy Lab",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
   },
 };
 
