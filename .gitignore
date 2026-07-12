@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local tool config
+/.claude/
+
+# source assets kept in the repo root (deployable copies live in /public)
+/og-image.png
+/DSCF1156c.jpeg
+/MH-JMaclure-1.jpg
+/PTP LOGO PNG.png
+/Paquin Photo 2026.jpg
