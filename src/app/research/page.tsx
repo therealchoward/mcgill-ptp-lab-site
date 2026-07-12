@@ -25,7 +25,7 @@ const researchAreas = [
   {
     title: "Mental Health & Biotech",
     description:
-      "We investigate technology-induced psychological harms, the access and effectiveness of digital mental health interventions, and the ethical boundaries between treatment and enhancement.",
+      "We investigate technology-induced psychological harms, the access and effectiveness of digital mental health interventions, the ethics of neurotechnology, and the ethical boundaries between treatment and enhancement.",
   },
 ];
 
@@ -86,7 +86,7 @@ export default function ResearchPage() {
     <>
       <PageHero
         title="Research"
-        subtitle="Philosophical inquiry into emerging technologies."
+        subtitle="Philosophical inquiry into digital technologies."
       />
 
       {/* Research Areas */}

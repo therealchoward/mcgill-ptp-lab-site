@@ -12,7 +12,7 @@ const initiatives = [
   {
     title: "The Normative Network",
     description:
-      "The Normative Network is the Lab's blog, exploring the ethical and political dimensions of emerging technologies. It features research insights, commentary, and analysis from Lab members and external contributors on topics across the Lab's research areas.",
+      "The Normative Network is the Lab's blog, exploring the ethical and political dimensions of digital technologies. It features research insights, commentary, and analysis from Lab members and external contributors on topics across the Lab's research areas.",
     lead: "Radheesh Ameresekere",
     link: "https://substack.com/@thenormativenetwork",
     linkLabel: "Read on Substack",
@@ -26,7 +26,7 @@ const initiatives = [
   {
     title: "PTP Lab Podcast",
     description:
-      "The PTP Lab Podcast features in-depth conversations with researchers and experts who contribute to The Normative Network blog. Each episode explores the ethics and politics of AI, social media, and other emerging technologies.",
+      "The PTP Lab Podcast features in-depth conversations with researchers and experts who contribute to The Normative Network blog. Each episode explores the ethics and politics of AI, social media, and other digital technologies.",
     lead: "Alex Carty",
     link: "https://www.youtube.com/@McGillPTPLab",
     linkLabel: "Watch on YouTube",
@@ -49,6 +49,13 @@ export default function OutreachPage() {
 
       <section className="px-6 pb-24 md:pb-32">
         <div className="max-w-[1200px] mx-auto">
+          <ScrollReveal>
+            <p className="mb-12 max-w-3xl text-[17px] leading-relaxed text-text-secondary">
+              Outreach is the public-facing arm of the Lab&apos;s engagement
+              work — building awareness of the issues we study, and of
+              philosophy&apos;s role in navigating them.
+            </p>
+          </ScrollReveal>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {initiatives.map((item, i) => (
               <ScrollReveal key={item.title} delay={i * 0.08}>

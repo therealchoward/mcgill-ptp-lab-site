@@ -7,7 +7,7 @@ import { members } from "@/data/members";
 export const metadata: Metadata = {
   title: "Members",
   description:
-    "Meet the team — philosophers, technologists, and policy experts investigating the ethical and political dimensions of AI, social media, biotech, and other emerging technologies.",
+    "Meet the team — philosophers, technologists, and policy experts investigating the ethical and political dimensions of AI, social media, gaming, biotech, and other digital technologies.",
 };
 
 export default function MembersPage() {
@@ -15,7 +15,7 @@ export default function MembersPage() {
     <>
       <PageHero
         title="Members"
-        subtitle="Our members and affiliates include philosophers, technologists, and policy experts investigating the ethical and political dimensions of AI, social media, biotech, and other emerging technologies."
+        subtitle="Our members and affiliates include philosophers, technologists, and policy experts investigating the ethical and political dimensions of AI, social media, gaming, biotech, and other digital technologies."
       />
 
       <section className="px-6 pb-24 md:pb-32">

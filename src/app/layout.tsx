@@ -22,11 +22,11 @@ export const metadata: Metadata = {
     template: "%s | McGill PTP Lab",
   },
   description:
-    "The McGill PTP Lab brings the tools of philosophy to bear on pressing questions in technology ethics and policy.",
+    "The McGill PTP Lab brings the tools of philosophy to bear on pressing questions in digital ethics and politics.",
   openGraph: {
     title: "McGill Philosophy, Technology & Policy Lab",
     description:
-      "The McGill PTP Lab brings the tools of philosophy to bear on pressing questions in technology ethics and policy.",
+      "The McGill PTP Lab brings the tools of philosophy to bear on pressing questions in digital ethics and politics.",
     type: "website",
     locale: "en_US",
   },

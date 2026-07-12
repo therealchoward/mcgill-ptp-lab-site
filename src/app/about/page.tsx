@@ -27,8 +27,8 @@ export default function AboutPage() {
               <p className="mt-6 text-[17px] leading-relaxed text-text-secondary">
                 We bring the tools of philosophy to bear on pressing questions
                 in technology ethics and policy. We work across AI, social
-                media, biotech, and other emerging technologies, examining
-                how they collectively shape human experience.
+                media, gaming, biotech, and other digital technologies,
+                examining how they collectively shape human experience.
               </p>
               <p className="mt-4 text-[17px] leading-relaxed text-text-secondary">
                 Our mission is to articulate and help realize the good digital
@@ -48,16 +48,17 @@ export default function AboutPage() {
               <div className="mt-6 space-y-6 text-[17px] leading-relaxed text-text-secondary">
                 <p>
                   We are living through a period of rapid and consequential
-                  technological change. Artificial intelligence systems are
-                  being deployed across a growing range of high-stakes
-                  domains — healthcare, criminal justice, education, and
-                  government among them — often without adequate ethical
-                  scrutiny or meaningful public deliberation. Social media
-                  platforms shape the information environment for billions, with
+                  technological change. Artificial intelligence systems now
+                  shape decisions in healthcare, criminal justice, education,
+                  and government — often without adequate ethical scrutiny or
+                  meaningful public deliberation. Social media platforms
+                  structure the information environment for billions, with
                   profound effects on mental health, political discourse, and
-                  social cohesion. The decisions being made now about how these
-                  technologies are designed and governed will have
-                  lasting consequences.
+                  social cohesion. And a growing share of digital technology —
+                  from immersive gaming to digital mental health interventions
+                  and neurotechnology — acts directly on human minds. The
+                  decisions being made now about how these technologies are
+                  designed and governed will have lasting consequences.
                 </p>
                 <p>
                   Yet these decisions are overwhelmingly driven by technical and
@@ -71,11 +72,13 @@ export default function AboutPage() {
                   the challenge.
                 </p>
                 <p>
-                  The Lab exists to fill this need. We bring the depth,
+                  The Lab exists to close this gap. We bring the depth,
                   precision, and clarity of philosophical inquiry to questions
-                  that demand more than purely technical answers. Our work is
-                  driven by the conviction that good technology policy requires
-                  good philosophy.
+                  that demand more than purely technical answers.
+                </p>
+                <p className="pl-6 border-l-2 border-accent font-serif text-[22px] md:text-[26px] leading-snug text-foreground">
+                  Our work is driven by the conviction that good technology
+                  policy requires good philosophy.
                 </p>
               </div>
             </div>
@@ -91,42 +94,38 @@ export default function AboutPage() {
               </h2>
               <div className="mt-6 space-y-6 text-[17px] leading-relaxed text-text-secondary">
                 <p>
-                  The Lab pursues its mission through four interconnected
-                  activities:
+                  The Lab pursues its mission through three pillars:
                 </p>
                 <ul className="space-y-4 list-none">
                   <li className="pl-6 border-l-2 border-accent">
                     <strong className="text-foreground">
-                      Interdisciplinary research
+                      Research
                     </strong>{" "}
-                    — Original scholarship on platform ethics, data ethics,
-                    AI governance, biotech ethics, and the mental health impacts of
-                    digital technologies.
+                    — Scholarship on the ethics and politics of digital
+                    technologies that meets the field&apos;s highest standards
+                    and is written to be used: rigorous enough to advance the
+                    discipline, accessible enough to inform the people making
+                    decisions.
                   </li>
                   <li className="pl-6 border-l-2 border-accent">
                     <strong className="text-foreground">
-                      Student training
+                      Training
                     </strong>{" "}
-                    — Graduate and undergraduate fellowships developing the
-                    next generation of scholars and practitioners at the
-                    intersection of philosophy, technology, and policy.
+                    — We train undergraduate and graduate fellows to put the
+                    tools of philosophy to work wherever they land — in
+                    government, industry, or academia.
                   </li>
                   <li className="pl-6 border-l-2 border-accent">
                     <strong className="text-foreground">
-                      Public outreach
+                      Engagement
                     </strong>{" "}
-                    — A blog, podcast, workshops, and public events that
-                    make the Lab&apos;s research accessible to broad
-                    audiences.
-                  </li>
-                  <li className="pl-6 border-l-2 border-accent">
-                    <strong className="text-foreground">
-                      Policy engagement
-                    </strong>{" "}
-                    — Working directly with policymakers, technologists, and
-                    civil society organizations to ensure that governance
-                    frameworks for emerging technologies are informed by sound
-                    ethical analysis.
+                    — Our public-facing arm — a blog, podcast, and public
+                    events — builds awareness of these issues and of
+                    philosophy&apos;s role in navigating them. Our
+                    policy-oriented arm works directly with policymakers,
+                    technologists, and civil society organizations to ensure
+                    that the governance of digital technologies is informed by
+                    sound ethical analysis.
                   </li>
                 </ul>
               </div>

@@ -9,7 +9,7 @@ export const events: Event[] = [
   {
     title: "Digital Technologies & Mental Health Workshop",
     description:
-      "The Digital Technologies & Mental Health Workshop brings together leading researchers from philosophy, psychology, technology studies, and policy to examine how digital technologies are reshaping mental health. Sessions explore the practical challenges and psychological implications of social media, AI, virtual environments, and other emerging technologies.",
+      "The Lab's flagship workshop brings together leading researchers from philosophy, psychology, technology studies, and policy to examine how digital technologies are reshaping mental health. Sessions explore the practical challenges and psychological implications of social media, AI, virtual environments, and other digital technologies.",
     date: "June 25–26, 2026",
     note: "By invitation only.",
   },
