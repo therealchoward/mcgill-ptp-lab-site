@@ -117,10 +117,10 @@ export default function AboutPage() {
                     <strong className="text-foreground">
                       Engagement
                     </strong>{" "}
-                    — Our public-facing arm — a blog, podcast, and public
+                    — Our public-facing arm — a blog, a podcast, and public
                     events — builds awareness of the issues we study and of
                     philosophy&apos;s role in navigating them. Our
-                    policy-oriented arm works directly with policymakers,
+                    policy-oriented arm builds relationships with policymakers,
                     technologists, and civil society organizations to ensure
                     that the governance of digital technologies is informed by
                     sound ethical analysis.
