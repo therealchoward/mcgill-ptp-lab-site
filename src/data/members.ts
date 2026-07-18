@@ -104,7 +104,7 @@ export const members: Member[] = [
   },
   {
     name: "Robbie Dillon",
-    role: "PhD Candidate @ McGill University",
+    role: "PhD Candidate in Philosophy @ McGill University",
     photo: "/images/members/dillon.jpg",
     category: "graduate",
   },
