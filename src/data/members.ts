@@ -56,14 +56,20 @@ export const members: Member[] = [
   },
   {
     name: "Zoey Lavallee",
-    role: "Postdoctoral Researcher @ McGill University",
+    role: "Assistant Professor in the Department of Equity, Ethics and Policy @ McGill University",
     photo: "/images/members/lavallee.jpg",
-    category: "postdoc",
+    category: "faculty",
   },
   {
     name: "Hugo Cossette-Lefebvre",
     role: "Postdoctoral Researcher @ McGill University",
     photo: "/images/members/hugo.png",
+    category: "postdoc",
+  },
+  {
+    name: "Alexis Morin-Martel",
+    role: "Postdoctoral Researcher @ UNC-Chapel Hill",
+    photo: "/images/members/morin-martel.jpg",
     category: "postdoc",
   },
   {
@@ -94,6 +100,12 @@ export const members: Member[] = [
     name: "Maryna Nekrasova",
     role: "Graduate Fellow",
     photo: "/images/members/nekrasova.jpg",
+    category: "graduate",
+  },
+  {
+    name: "Robbie Dillon",
+    role: "PhD Candidate @ McGill University",
+    photo: "/images/members/dillon.jpg",
     category: "graduate",
   },
   {
