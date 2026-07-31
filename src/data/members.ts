@@ -19,6 +19,12 @@ export const members: Member[] = [
     category: "leadership",
   },
   {
+    name: "Jessica Strachan",
+    role: "Executive Director",
+    photo: "/images/members/strachan.jpeg",
+    category: "leadership",
+  },
+  {
     name: "Sofia Forlini",
     role: "Undergraduate Fellow Coordinator",
     photo: "/images/members/forlini.jpg",

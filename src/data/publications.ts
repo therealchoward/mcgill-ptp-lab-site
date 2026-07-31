@@ -21,12 +21,12 @@ export const publications: Publication[] = [
     clusters: ["Platform Ethics & Governance"],
   },
   {
-    authors: "Howard, C.",
-    year: "n.d.",
-    title: "Power diffusion through pluralism: The case for decentralized AI",
-    venue: "",
-    venueExtra: "Working paper",
-    clusters: ["AI Ethics & Policy"],
+    authors: "Morin-Martel, A.",
+    year: "Forthcoming",
+    title:
+      "Are you even a person? Agency-directed distrust and artificial interlocutors",
+    venue: "Ergo",
+    clusters: ["Platform Ethics & Governance"],
   },
   {
     authors: "Cossette-Lefebvre, H.",
@@ -49,6 +49,14 @@ export const publications: Publication[] = [
       "Savoirs, science, liberté académique, et liberté d'expression au Canada",
     venueExtra: ". Presses de l'Université de Montréal",
     clusters: ["Platform Ethics & Governance"],
+  },
+  {
+    authors: "Howard, C.",
+    year: "n.d.",
+    title: "Power diffusion through pluralism: The case for decentralized AI",
+    venue: "",
+    venueExtra: "Working paper",
+    clusters: ["AI Ethics & Policy"],
   },
   {
     authors: "Cossette-Lefebvre, H., & Stoljar, N.",
@@ -79,6 +87,17 @@ export const publications: Publication[] = [
       "Situating problematic gaming and psychotic-like experiences in the adolescent landscape of affordances",
     venue: "Journal of Behavioral Addictions",
     url: "https://doi.org/10.1101/2025.03.24.25324546",
+    clusters: ["Mental Health & Biotech"],
+  },
+  {
+    authors:
+      "Paquin, V., Jiang, R., Shah, J. L., Jarvis, G. E., Nickrenz, E., Ferrari, M., & Park, M.",
+    year: "2026",
+    title:
+      "Knowing how to ask about digital culture in youth mental health care: A co-designed tool",
+    venue: "Early Intervention in Psychiatry, 20",
+    venueExtra: "(7), e70203",
+    url: "https://doi.org/10.1111/eip.70203",
     clusters: ["Mental Health & Biotech"],
   },
   {
@@ -132,6 +151,16 @@ export const publications: Publication[] = [
     clusters: ["Mental Health & Biotech"],
   },
   {
+    authors: "Paquin, V.",
+    year: "2025",
+    title:
+      "Taking the long view on digital culture and mental health: Principles from critical realism",
+    venue: "Qualitative Health Research",
+    venueExtra: ", 10497323251389814",
+    url: "https://doi.org/10.1177/10497323251389814",
+    clusters: ["Mental Health & Biotech"],
+  },
+  {
     authors: "Lavallee, Z., & Osler, L.",
     year: "2024",
     title: "Affordances and the shape of addiction",
@@ -148,6 +177,16 @@ export const publications: Publication[] = [
     venueExtra: ", 113993",
     url: "https://doi.org/10.1016/j.measurement.2023.113993",
     clusters: ["Data Ethics & Measurement"],
+  },
+  {
+    authors: "Morin-Martel, A.",
+    year: "2024",
+    title:
+      "Machine learning in bail decisions and judges' trustworthiness",
+    venue: "AI & Society, 39",
+    venueExtra: "(4), 2033–2044",
+    url: "https://doi.org/10.1007/s00146-023-01673-6",
+    clusters: ["AI Ethics & Policy"],
   },
   {
     authors: "Cossette-Lefebvre, H., & Maclure, J.",
