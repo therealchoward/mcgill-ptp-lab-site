@@ -25,7 +25,7 @@ const researchAreas = [
   {
     title: "Mental Health & Biotech",
     description:
-      "We investigate technology-induced psychological harms, the access and effectiveness of digital mental health interventions, and the ethical boundaries between treatment and enhancement.",
+      "We investigate technology-induced psychological harms, access to and the effectiveness of digital mental health interventions, and the ethical boundaries between treatment and enhancement.",
   },
 ];
 
