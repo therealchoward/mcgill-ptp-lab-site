@@ -37,7 +37,7 @@ function EventCard({ event, delay }: { event: Event; delay: number }) {
         <h3 className="text-xl font-semibold">{event.title}</h3>
         {event.description && (
           <p
-            className="mt-3 text-[15px] text-text-secondary leading-relaxed max-w-3xl"
+            className="mt-3 text-[15px] text-text-secondary leading-relaxed max-w-[50rem]"
             dangerouslySetInnerHTML={{ __html: event.description }}
           />
         )}
