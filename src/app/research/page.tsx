@@ -42,7 +42,7 @@ function PublicationCitation({
   pub: (typeof publications)[0];
 }) {
   return (
-    <p className="text-[15px] leading-relaxed py-3">
+    <p className="text-[15px] leading-relaxed py-3 max-w-4xl">
       <span className="text-text-secondary">
         {pub.authors} ({pub.year}).
       </span>{" "}
@@ -180,13 +180,7 @@ export default function ResearchPage() {
                   .map((p) => parseInt(p.year))
                   .filter((y) => !isNaN(y))
               )}
-              .{" "}
-              <button
-                onClick={() => setShowAll(true)}
-                className="text-accent hover:underline"
-              >
-                Expand all
-              </button>
+              .
             </p>
           )}
         </div>

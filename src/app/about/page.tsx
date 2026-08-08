@@ -117,8 +117,8 @@ export default function AboutPage() {
                     <strong className="text-foreground">
                       Engagement
                     </strong>{" "}
-                    — Our public-facing arm — a blog, a podcast, and public
-                    events — builds awareness of the issues we study and of
+                    — Our public-facing arm — a podcast, mini-courses, and
+                    public events — builds awareness of the issues we study and of
                     philosophy&apos;s role in navigating them. Our
                     policy-oriented arm builds relationships with policymakers,
                     technologists, and civil society to ensure that the

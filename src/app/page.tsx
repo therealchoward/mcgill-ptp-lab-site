@@ -34,19 +34,14 @@ const researchAreas = [
 
 const outreachItems = [
   {
-    title: "The Normative Network",
-    description:
-      "Our blog exploring the ethical and political dimensions of digital technologies.",
-  },
-  {
     title: "PTP Lab Podcast",
     description:
       "In-depth conversations with scholars working in the Lab's research areas.",
   },
   {
-    title: "AI Myths and Misinformation Initiative",
+    title: "Mini-Courses",
     description:
-      "Examining popular misconceptions about AI using the toolkit of analytic epistemology.",
+      "Three talks from McGill researchers over three consecutive weeks, offering a concentrated introduction to an issue in digital ethics and politics.",
   },
 ];
 
@@ -136,7 +131,7 @@ export default function Home() {
             {recentPubs.map((pub, i) => (
               <ScrollReveal key={pub.title} delay={i * 0.08}>
                 <div className="py-4 border-b border-border">
-                  <p className="text-[15px] leading-relaxed">
+                  <p className="text-[15px] leading-relaxed max-w-4xl">
                     <span className="text-text-secondary">
                       {pub.authors} ({pub.year}).
                     </span>{" "}

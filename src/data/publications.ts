@@ -13,20 +13,21 @@ export interface Publication {
 
 export const publications: Publication[] = [
   {
-    authors: "Howard, C.",
-    year: "n.d.",
-    title: "Decentralizing the digital public sphere",
-    venue: "",
-    venueExtra: "Working paper",
-    clusters: ["Platform Ethics & Governance"],
-  },
-  {
     authors: "Morin-Martel, A.",
     year: "Forthcoming",
     title:
       "Are you even a person? Agency-directed distrust and artificial interlocutors",
     venue: "Ergo",
     clusters: ["Platform Ethics & Governance"],
+  },
+  {
+    authors: "Howard, C., & Cofone, I.",
+    year: "Forthcoming",
+    title: "AI personhood has no bearer",
+    venuePrefix: "In V. Kurki & E. Leshem (Eds.), ",
+    venue: "Philosophical Foundations of Legal Personhood",
+    venueExtra: ". Oxford University Press",
+    clusters: ["AI Ethics & Policy"],
   },
   {
     authors: "Cossette-Lefebvre, H.",
@@ -48,6 +49,14 @@ export const publications: Publication[] = [
     venue:
       "Savoirs, science, liberté académique, et liberté d'expression au Canada",
     venueExtra: ". Presses de l'Université de Montréal",
+    clusters: ["Platform Ethics & Governance"],
+  },
+  {
+    authors: "Howard, C.",
+    year: "n.d.",
+    title: "Decentralizing the digital public sphere",
+    venue: "",
+    venueExtra: "Working paper",
     clusters: ["Platform Ethics & Governance"],
   },
   {
@@ -85,8 +94,9 @@ export const publications: Publication[] = [
     year: "2026",
     title:
       "Situating problematic gaming and psychotic-like experiences in the adolescent landscape of affordances",
-    venue: "Journal of Behavioral Addictions",
-    url: "https://doi.org/10.1101/2025.03.24.25324546",
+    venue: "Journal of Behavioral Addictions, 15",
+    venueExtra: "(1), 320–331",
+    url: "https://doi.org/10.1556/2006.2025.00094",
     clusters: ["Mental Health & Biotech"],
   },
   {
@@ -98,6 +108,15 @@ export const publications: Publication[] = [
     venue: "Early Intervention in Psychiatry, 20",
     venueExtra: "(7), e70203",
     url: "https://doi.org/10.1111/eip.70203",
+    clusters: ["Mental Health & Biotech"],
+  },
+  {
+    authors: "Lavallee, Z.",
+    year: "2026",
+    title: "Affective scaffolding in addiction",
+    venue: "Inquiry, 69",
+    venueExtra: "(4), 2286–2314",
+    url: "https://doi.org/10.1080/0020174X.2023.2194321",
     clusters: ["Mental Health & Biotech"],
   },
   {
@@ -156,7 +175,7 @@ export const publications: Publication[] = [
     title:
       "Taking the long view on digital culture and mental health: Principles from critical realism",
     venue: "Qualitative Health Research",
-    venueExtra: ", 10497323251389814",
+    note: "Advance online publication.",
     url: "https://doi.org/10.1177/10497323251389814",
     clusters: ["Mental Health & Biotech"],
   },
@@ -166,6 +185,7 @@ export const publications: Publication[] = [
     title: "Affordances and the shape of addiction",
     venue: "Philosophy, Psychiatry, & Psychology, 31",
     venueExtra: "(4), 379–395",
+    url: "https://doi.org/10.1353/ppp.2024.a948895",
     clusters: ["Mental Health & Biotech"],
   },
   {
@@ -199,14 +219,6 @@ export const publications: Publication[] = [
     clusters: ["AI Ethics & Policy"],
   },
   {
-    authors: "Lavallee, Z.",
-    year: "2023",
-    title: "Affective scaffolding in addiction",
-    venue: "Inquiry",
-    venueExtra: ", 1–29",
-    clusters: ["Mental Health & Biotech"],
-  },
-  {
     authors: "Tal, E.",
     year: "2023",
     title:
@@ -225,6 +237,7 @@ export const publications: Publication[] = [
     italicTitle: true,
     venue: "",
     venueExtra: "Routledge",
+    url: "https://doi.org/10.4324/9781003203759",
     clusters: ["Mental Health & Biotech"],
   },
   {
@@ -254,6 +267,7 @@ export const publications: Publication[] = [
     title: "Addictive craving: There's more to wanting more",
     venue: "Philosophy, Psychiatry, & Psychology, 27",
     venueExtra: "(3), 227–238",
+    url: "https://doi.org/10.1353/ppp.2020.0028",
     clusters: ["Mental Health & Biotech"],
   },
   {
