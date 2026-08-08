@@ -26,6 +26,11 @@ body {
   font-family: var(--font-sans);
 }
 
+/* Avoid single-word last lines (widows) in body copy */
+p {
+  text-wrap: pretty;
+}
+
 /* Animated gradient hero */
 @keyframes gradientShift {
   0% {

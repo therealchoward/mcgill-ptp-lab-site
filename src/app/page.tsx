@@ -36,7 +36,7 @@ const outreachItems = [
   {
     title: "PTP Lab Podcast",
     description:
-      "In-depth conversations with scholars working in the Lab's research areas.",
+      "In-depth conversations with scholars and experts working in the Lab's research areas.",
   },
   {
     title: "Mini-Courses",
