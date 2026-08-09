@@ -140,12 +140,13 @@ export default function Home() {
                         href={pub.url}
                         target="_blank"
                         rel="noopener noreferrer"
+                        lang={pub.lang}
                         className={`hover:text-accent transition-colors${pub.italicTitle ? " italic" : ""}`}
                       >
                         {pub.title}{pub.title.endsWith("?") ? "" : "."}
                       </a>
                     ) : (
-                      <span className={pub.italicTitle ? "italic" : undefined}>
+                      <span lang={pub.lang} className={pub.italicTitle ? "italic" : undefined}>
                         {pub.title}{pub.title.endsWith("?") ? "" : "."}
                       </span>
                     )}{" "}
@@ -153,10 +154,10 @@ export default function Home() {
                       <span className="text-text-secondary">{pub.venuePrefix}</span>
                     )}
                     {pub.venue && (
-                      <span className="italic text-text-secondary">{pub.venue}</span>
+                      <span lang={pub.lang} className="italic text-text-secondary">{pub.venue}</span>
                     )}
                     {pub.venueExtra && (
-                      <span className="text-text-secondary">{pub.venueExtra}</span>
+                      <span lang={pub.lang} className="text-text-secondary">{pub.venueExtra}</span>
                     )}
                     {(pub.venue || pub.venueExtra) && (
                       <span className="text-text-secondary">.</span>

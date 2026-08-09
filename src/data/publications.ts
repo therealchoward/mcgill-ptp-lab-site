@@ -2,6 +2,10 @@ export interface Publication {
   authors: string;
   year: string;
   title: string;
+  /** BCP 47 tag for non-English titles/venues, e.g. "fr". Keeps browser
+   *  translation from misreading the page's language, and lets screen
+   *  readers switch pronunciation. */
+  lang?: string;
   italicTitle?: boolean;
   venuePrefix?: string;
   venue: string;
@@ -32,6 +36,7 @@ export const publications: Publication[] = [
   {
     authors: "Cossette-Lefebvre, H.",
     year: "Forthcoming",
+    lang: "fr",
     title:
       "Le contenu généré par l'IA a-t-il de la valeur? IA génératives, le statut d'auteur, et autonomie personnelle",
     venuePrefix: "In L. Langlois (Ed.), ",
@@ -42,6 +47,7 @@ export const publications: Publication[] = [
   {
     authors: "Cossette-Lefebvre, H.",
     year: "Forthcoming",
+    lang: "fr",
     title:
       "Dépendance épistémique et liberté d'expression dans la sphère publique numérique",
     venuePrefix:
@@ -144,6 +150,7 @@ export const publications: Publication[] = [
     authors:
       "Cossette-Lefebvre, H., Maclure, J., Vold, K., Facal, C., & Dumont, I.",
     year: "2025",
+    lang: "fr",
     title:
       "Avatars numériques post-mortem et deuil: Un point de vue éthique",
     venue: "Psychologie Québec",
