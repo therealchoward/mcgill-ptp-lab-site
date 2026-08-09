@@ -101,7 +101,7 @@ export default function ResearchPage() {
               <ScrollReveal key={area.title} delay={i * 0.08}>
                 <div className="p-8 border border-border rounded-sm h-full">
                   <h3 className="text-xl font-semibold">{area.title}</h3>
-                  <p className="mt-4 text-[15px] text-text-secondary leading-relaxed text-balance">
+                  <p className="mt-4 text-[15px] text-text-secondary leading-relaxed">
                     {area.description}
                   </p>
                 </div>
