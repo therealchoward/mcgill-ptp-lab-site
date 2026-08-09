@@ -247,7 +247,7 @@ export default function Home() {
               <ScrollReveal key={item.title} delay={i * 0.08}>
                 <div className="py-4 border-b border-border">
                   <h3 className="text-lg font-semibold">{item.title}</h3>
-                  <p className="mt-1 text-[15px] text-text-secondary max-w-4xl">
+                  <p className="mt-1 text-[15px] text-text-secondary max-w-3xl">
                     {item.description}
                   </p>
                 </div>
