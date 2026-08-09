@@ -32,7 +32,7 @@ export default function AboutPage() {
               </p>
               <p className="mt-4 text-[17px] leading-relaxed text-text-secondary">
                 Our mission is to articulate and help realize the good digital
-                life and just digital society.
+                life and a just digital society.
               </p>
             </div>
           </ScrollReveal>
