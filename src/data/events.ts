@@ -23,16 +23,9 @@ export const upcomingEvents: Event[] = [
     date: "October 22, 2026, 3:30–5:30 PM EST",
   },
   {
-    title: "PTP Lab x HPS Meet and Greet",
-    description:
-      "An informal gathering for Lab members and McGill History and Philosophy of Science students to get acquainted and hear about the Lab's activities in the year ahead.",
-    date: "October 2026",
-    access: "By invitation only",
-  },
-  {
     title: "AI Mini-Course",
     description:
-      "Should an algorithm decide who gets a job, a loan, or bail? Who's in charge of the systems reshaping public life — and who should be? Over three evenings this fall, scholars from across McGill introduce the ethics and politics of AI: how these systems work, and how they're affecting all of us. No technical background required — just curiosity and questions of your own.<br/><br/>Exact dates and location will be announced ahead of the first session.",
+      "Should an algorithm decide who gets a job, a loan, or bail? Who's in charge of the systems reshaping public life — and who should be? Over three evenings this fall, scholars from across McGill introduce the ethics and politics of AI, how these systems work, and how they're affecting us all. No technical background required — just curiosity and questions of your own.<br/><br/>Exact dates and location will be announced ahead of the first session.",
     date: "October–November 2026",
     access: "Open to the public",
   },

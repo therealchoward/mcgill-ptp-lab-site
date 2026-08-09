@@ -41,7 +41,7 @@ const outreachItems = [
   {
     title: "Mini-Courses",
     description:
-      "Three talks from McGill researchers over three consecutive weeks, offering a concentrated introduction to an issue in digital ethics and politics.",
+      "Three talks from McGill researchers over three consecutive weeks, offering a concentrated introduction to a core issue in digital ethics and politics.",
   },
 ];
 

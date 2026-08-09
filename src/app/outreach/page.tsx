@@ -13,7 +13,7 @@ const initiatives = [
   {
     title: "PTP Lab Podcast",
     description:
-      "The PTP Lab Podcast features conversations with scholars and experts working in the Lab's research areas. Each episode explores the ethics and politics of AI, social media, and other digital technologies.",
+      "The PTP Lab Podcast features conversations with scholars and experts working in the Lab's research areas. Episodes explore the ethics and politics of AI, social media, and other digital technologies.",
     lead: "Alex Carty",
     link: "https://www.youtube.com/@McGillPTPLab",
     linkLabel: "Watch on YouTube",
@@ -21,7 +21,7 @@ const initiatives = [
   {
     title: "Mini-Courses",
     description:
-      "The Lab's mini-courses give the public a working understanding of an issue in the ethics and politics of digital technologies. Each consists of three talks from researchers over three consecutive weeks, moving from the foundations of a topic to the questions still under debate.",
+      "The Lab's mini-courses give the public a working understanding of a core issue in the ethics and politics of digital technologies. Each consists of three talks from researchers over three consecutive weeks, moving from the foundations of a topic to the questions still under debate.",
     lead: "Ian Gold",
     link: "/events",
     linkLabel: "See Events for details",

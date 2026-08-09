@@ -79,12 +79,6 @@ export const members: Member[] = [
     category: "postdoc",
   },
   {
-    name: "Mark Xiao",
-    role: "Social Media Manager",
-    photo: "/images/members/xiao.jpeg",
-    category: "staff",
-  },
-  {
     name: "Radheesh Ameresekere",
     role: "Graduate Fellow",
     photo: "/images/members/ameresekere.jpg",
@@ -113,6 +107,12 @@ export const members: Member[] = [
     role: "PhD Candidate in Philosophy @ McGill University",
     photo: "/images/members/dillon.jpg",
     category: "graduate",
+  },
+  {
+    name: "Mark Xiao",
+    role: "Undergraduate in Philosophy @ McGill University",
+    photo: "/images/members/xiao.jpeg",
+    category: "undergraduate",
   },
   {
     name: "John Bollinger",
