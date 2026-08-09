@@ -26,9 +26,13 @@ body {
   font-family: var(--font-sans);
 }
 
-/* Avoid single-word last lines (widows) in body copy */
-p {
-  text-wrap: pretty;
+/* Avoid single-word last lines (widows) in body copy. Must live in @layer
+   base so Tailwind's text-wrap utilities (text-balance, etc.) can override
+   it — unlayered rules win over every layered one regardless of specificity. */
+@layer base {
+  p {
+    text-wrap: pretty;
+  }
 }
 
 /* Animated gradient hero */

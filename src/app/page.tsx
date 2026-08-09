@@ -104,7 +104,7 @@ export default function Home() {
                   <h3 className="text-xl font-semibold group-hover:text-accent transition-colors">
                     {area.title}
                   </h3>
-                  <p className="mt-3 text-[15px] text-text-secondary leading-relaxed">
+                  <p className="mt-3 text-[15px] text-text-secondary leading-relaxed text-balance">
                     {area.description}
                   </p>
                 </Link>
