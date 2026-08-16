@@ -63,7 +63,7 @@ export default function AboutPage() {
                 <p>
                   Yet these decisions are overwhelmingly driven by technical and
                   commercial considerations, with philosophical and ethical
-                  analysis too often arriving after the fact — if at all. The
+                  analysis too often arriving after the fact, if at all. The
                   result is a widening gap between the pace of technological
                   change and our collective capacity to govern it wisely. Closing
                   this gap requires sustained, rigorous engagement from
