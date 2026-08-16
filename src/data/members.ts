@@ -20,7 +20,7 @@ export const members: Member[] = [
   },
   {
     name: "Jessica Strachan",
-    role: "Executive Director",
+    role: "Operations Manager",
     photo: "/images/members/strachan.jpeg",
     category: "leadership",
   },
