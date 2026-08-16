@@ -8,13 +8,13 @@ export interface Member {
 export const members: Member[] = [
   {
     name: "Chris Howard",
-    role: "Director, Associate Professor @ McGill University",
+    role: "Founding Director, Associate Professor @ McGill University",
     photo: "/images/members/howard.jpg",
     category: "leadership",
   },
   {
     name: "Ian Gold",
-    role: "Coordinator, Professor and Canada Research Chair in Philosophy & Psychiatry @ McGill University",
+    role: "Co-Founder, Professor and Canada Research Chair in Philosophy & Psychiatry @ McGill University",
     photo: "/images/members/gold.jpg",
     category: "leadership",
   },
