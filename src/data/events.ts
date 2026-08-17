@@ -21,6 +21,7 @@ export const upcomingEvents: Event[] = [
       "\"Natural and Mechanical Conversations\" with Jennifer Nagel (University of Toronto)",
     description: "<em>Abstract forthcoming.</em>",
     date: "October 22, 2026, 3:30–5:30 PM",
+    location: "Thomson House, Ballroom",
   },
   {
     title: "AI Mini-Course",
