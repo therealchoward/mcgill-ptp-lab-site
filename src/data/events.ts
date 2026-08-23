@@ -19,7 +19,8 @@ export const upcomingEvents: Event[] = [
     series: "Jarislowsky Lecture Series in Human Nature and Technology",
     title:
       "\"Natural and Mechanical Conversations\" with Jennifer Nagel (University of Toronto)",
-    description: "<em>Abstract forthcoming.</em>",
+    description:
+      "Conversation is a natural human activity, although no longer an exclusively human activity: we can now talk to chatbots, and they can talk to each other. In human conversations, intrinsic epistemic motivations drive participants towards states of shared knowledge, aided by addressee backchannel signals — <em>mhm, huh? yeah, no, okay, oh</em> — marking progress towards this goal. This lecture argues that conversations with currently deployed chatbots do not work to produce states of shared knowledge, both because these chatbots lack intrinsic epistemic motivation, and because they are incapable of genuine backchannel signaling. These limitations are subtly evident when chatbots are paired with human conversational partners, and more strikingly evident when chatbots talk to each other.",
     date: "October 22, 2026, 3:30–5:30 PM",
     location: "Thomson House, Ballroom",
   },
