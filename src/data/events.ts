@@ -27,8 +27,8 @@ export const upcomingEvents: Event[] = [
   {
     title: "AI Mini-Course",
     description:
-      "Should an algorithm decide who gets a job, a loan, or bail? Who's in charge of the systems reshaping public life — and who should be? Over three evenings this fall, scholars from across McGill introduce the ethics and politics of AI, how these systems work, and how they're affecting us all. No technical background required — just curiosity and questions of your own.<br/><br/>Exact dates and location will be announced ahead of the first session.",
-    date: "October–November 2026",
+      "Should an algorithm decide who gets a job, a loan, or bail? Who's in charge of the systems reshaping public life — and who should be? Over three evenings this winter, scholars from across McGill introduce the ethics and politics of AI, how these systems work, and how they're affecting us all. No technical background required — just curiosity and questions of your own.<br/><br/>Exact dates and location will be announced ahead of the first session.",
+    date: "February–March 2027",
     access: "Open to the public",
   },
   {
