@@ -16,6 +16,15 @@ export interface Event {
 /** Displayed in array order — chronological, with undated events last. */
 export const upcomingEvents: Event[] = [
   {
+    title:
+      "\"Credulity, Imagination, and Interpersonal Understanding\" with Daniel Munro (Boston University)",
+    description:
+      "Empirical research has uncovered various cognitive limitations and biases that make it difficult to detect deceptive testimony in real-time, as we receive it. While these limitations and biases might seem epistemically pernicious, some epistemologists have given optimistic takes, arguing that they're epistemically innocuous or even beneficial. I focus on a source of credulity about testimony that has been neglected in this literature. We often cognitively process other people's testimony by constructing mental imagery, or by imaginatively representing the contents of that testimony; empirical evidence suggests that, the more vivid and emotionally arousing this imagery, the more likely we are to believe the testimony without critically evaluating it. I first argue that prior, epistemically optimistic analyses of human credulity can't be applied to this specific form. I then offer an alternative explanation of its epistemic benefits: it enables deeper forms of interpersonal understanding that we couldn't achieve without it. While these benefits can be effectively accrued in ordinary face-to-face conversations, they're increasingly disrupted by phenomena like online misinformation and AI generated content.",
+    date: "October 15, 2026, 12:00–1:30 PM",
+    access: "Open to the public",
+    host: "Hosted by the Centre de recherche en éthique",
+  },
+  {
     series: "Jarislowsky Lecture Series in Human Nature and Technology",
     title:
       "\"Natural and Mechanical Conversations\" with Jennifer Nagel (University of Toronto)",
