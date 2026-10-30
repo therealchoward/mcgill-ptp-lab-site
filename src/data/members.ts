@@ -1,8 +1,15 @@
 export interface Member {
   name: string;
   role: string;
-  photo: string;
+  /** Leave out until a photo arrives — the tile shows the member's initials instead. */
+  photo?: string;
   category: "leadership" | "faculty" | "postdoc" | "graduate" | "staff" | "undergraduate";
+}
+
+/** "Dax Hamouth" → "DH". Shown in place of a missing photo. */
+export function initials(name: string): string {
+  const parts = name.split(" ");
+  return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
 }
 
 export const members: Member[] = [
@@ -19,9 +26,9 @@ export const members: Member[] = [
     category: "leadership",
   },
   {
-    name: "Jessica Strachan",
+    name: "Hazel Krauth",
     role: "Operations Manager",
-    photo: "/images/members/strachan.jpeg",
+    photo: "/images/members/krauth.jpg",
     category: "leadership",
   },
   {
@@ -67,6 +74,12 @@ export const members: Member[] = [
     category: "faculty",
   },
   {
+    name: "Martina Orlandi",
+    role: "Assistant Professor in the Applied Artificial Intelligence Program @ Trent University Durham",
+    photo: "/images/members/orlandi.jpg",
+    category: "faculty",
+  },
+  {
     name: "Hugo Cossette-Lefebvre",
     role: "Postdoctoral Researcher @ McGill University",
     photo: "/images/members/hugo.png",
@@ -79,33 +92,32 @@ export const members: Member[] = [
     category: "postdoc",
   },
   {
-    name: "Radheesh Ameresekere",
+    name: "Robbie Dillon",
     role: "Graduate Fellow",
-    photo: "/images/members/ameresekere.jpg",
+    photo: "/images/members/dillon.jpg",
+    category: "graduate",
+  },
+  {
+    name: "Jacob Hamel-Mottiez",
+    role: "Graduate Fellow",
+    photo: "/images/members/hamel-mottiez.jpg",
+    category: "graduate",
+  },
+  {
+    name: "Dax Hamouth",
+    role: "Graduate Fellow",
+    category: "graduate",
+  },
+  {
+    name: "Olivia Railton",
+    role: "Graduate Fellow",
+    photo: "/images/members/railton.jpg",
     category: "graduate",
   },
   {
     name: "Alex Carty",
-    role: "Graduate Fellow",
-    photo: "/images/members/carty.jpg",
-    category: "graduate",
-  },
-  {
-    name: "Asya Ciftci",
-    role: "Graduate Fellow",
-    photo: "/images/members/ciftci.jpg",
-    category: "graduate",
-  },
-  {
-    name: "Maryna Nekrasova",
-    role: "Graduate Fellow",
-    photo: "/images/members/nekrasova.jpg",
-    category: "graduate",
-  },
-  {
-    name: "Robbie Dillon",
     role: "PhD Candidate in Philosophy @ McGill University",
-    photo: "/images/members/dillon.jpg",
+    photo: "/images/members/carty.jpg",
     category: "graduate",
   },
   {
@@ -115,21 +127,26 @@ export const members: Member[] = [
     category: "undergraduate",
   },
   {
-    name: "John Bollinger",
+    name: "Benjamin Adelson",
     role: "Undergraduate Fellow",
-    photo: "/images/members/bollinger.jpg",
+    photo: "/images/members/adelson.jpg",
     category: "undergraduate",
   },
   {
-    name: "Warren Chen",
+    name: "Madeline Brown-Vega",
     role: "Undergraduate Fellow",
-    photo: "/images/members/chen.jpg",
+    photo: "/images/members/brown-vega.jpg",
     category: "undergraduate",
   },
   {
-    name: "Lindsay Cobb",
+    name: "Bailey Curtin",
     role: "Undergraduate Fellow",
-    photo: "/images/members/cobb.jpg",
+    photo: "/images/members/curtin.jpg",
+    category: "undergraduate",
+  },
+  {
+    name: "Danielle Oltman",
+    role: "Undergraduate Fellow",
     category: "undergraduate",
   },
 ];

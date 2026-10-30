@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { SectionLabel } from "@/components/SectionLabel";
-import { members } from "@/data/members";
+import { initials, members } from "@/data/members";
 import { publications } from "@/data/publications";
 
 const researchAreas = [
@@ -200,13 +200,24 @@ export default function Home() {
               <ScrollReveal key={member.name} delay={i * 0.05}>
                 <div className="group">
                   <div className="aspect-square rounded-full overflow-hidden bg-border">
-                    <Image
-                      src={member.photo}
-                      alt={member.name}
-                      width={120}
-                      height={120}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
+                    {member.photo ? (
+                      <Image
+                        src={member.photo}
+                        alt={member.name}
+                        width={120}
+                        height={120}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                    ) : (
+                      <div
+                        aria-hidden="true"
+                        className="@container w-full h-full flex items-center justify-center"
+                      >
+                        <span className="font-serif leading-none text-[length:34cqw] text-text-secondary">
+                          {initials(member.name)}
+                        </span>
+                      </div>
+                    )}
                   </div>
                   <p className="mt-2 text-[11px] text-center text-text-secondary leading-tight">
                     {member.name.split(" ")[0]}
