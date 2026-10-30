@@ -16,25 +16,24 @@ export interface Event {
 /** Displayed in array order — chronological, with undated events last. */
 export const upcomingEvents: Event[] = [
   {
+    series: "CAPAI Online Speaker Series",
     title:
-      "\"Credulity, Imagination, and Interpersonal Understanding\" with Daniel Munro (Boston University)",
-    /* The \u00A0 (non-breaking space) in "and AI generated" keeps those words
-       together so the abstract's last line doesn't end up as a two-word stub.
-       Don't replace them with ordinary spaces. */
+      "\"Emotional Overreliance and the Case of AI Chatbots\" with Zoey Lavallee (McGill)",
     description:
-      "Empirical research has uncovered various cognitive limitations and biases that make it difficult to detect deceptive testimony in real-time, as we receive it. While these limitations and biases might seem epistemically pernicious, some epistemologists have given optimistic takes, arguing that they're epistemically innocuous or even beneficial. I focus on a source of credulity about testimony that has been neglected in this literature. We often cognitively process other people's testimony by constructing mental imagery, or by imaginatively representing the contents of that testimony; empirical evidence suggests that, the more vivid and emotionally arousing this imagery, the more likely we are to believe the testimony without critically evaluating it. I first argue that prior, epistemically optimistic analyses of human credulity can't be applied to this specific form. I then offer an alternative explanation of its epistemic benefits: it enables deeper forms of interpersonal understanding that we couldn't achieve without it. While these benefits can be effectively accrued in ordinary face-to-face conversations, they're increasingly disrupted by phenomena like online misinformation and\u00A0AI\u00A0generated content.<br/><br/><em>The talk is hybrid; see the <a href=\"https://www.lecre.umontreal.ca/en/event/daniel-munro-boston-university/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-accent hover:underline\">CRÉ event page</a> for the room and Zoom link.</em>",
-    date: "October 15, 2026, 12:00–1:30 PM",
-    access: "Open to the public",
-    host: "Hosted by the Centre de recherche en éthique",
+      "The growing use of AI chatbots for emotionally significant purposes raises questions about how dependence on these systems may transform us as affective beings. This talk addresses one such concern: that some individuals may become <em>too</em> emotionally reliant on chatbots. Drawing on the situated affectivity literature, I adopt a descriptive account of chatbots as affective scaffolds, then develop a normative account of emotional overreliance that distinguishes it from benign or beneficial forms of deep affective dependence. Emotional overreliance, I argue, is a pattern of affective scaffolding that is self-undermining: the reliance itself erodes the agent's capacity to revise their scaffolding relations where their situation calls for it, and it can do so even while the reliance continues to feel beneficial. Because human life predictably calls for such revision, an agent whose capacity to enact it is compromised is exposed to foreseeable harm. I then apply this account to AI chatbots, focusing on psychotherapy chatbots. I argue that core features commonly marketed as advantages of these products are also features that promote the pattern of overreliance, such that current chatbots pose a particularly serious risk of this pattern by design.<br/><br/><em>Registration details are on the <a href=\"https://www.capai-acpia.ca/events\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-accent hover:underline\">CAPAI events page</a>.</em>",
+    date: "November 20, 2026, 1:00–2:30 PM",
+    location: "Online",
+    access: "Registration required",
   },
   {
-    series: "Jarislowsky Lecture Series in Human Nature and Technology",
     title:
-      "\"Natural and Mechanical Conversations\" with Jennifer Nagel (University of Toronto)",
+      "\"Digital Wisdom: Trade-offs, Honesty, and Judgment in the Age of Artificial Intelligence\" with Joshua Skorburg (University of Guelph)",
     description:
-      "Conversation is a natural human activity, although no longer an exclusively human activity: we can now talk to chatbots, and they can talk to each other. In human conversations, intrinsic epistemic motivations drive participants towards states of shared knowledge, aided by addressee backchannel signals — <em>mhm, huh? yeah, no, okay, oh</em> — marking progress towards this goal. This lecture argues that conversations with currently deployed chatbots do not work to produce states of shared knowledge, both because these chatbots lack intrinsic epistemic motivation, and because they are incapable of genuine backchannel signaling. These limitations are subtly evident when chatbots are paired with human conversational partners, and more strikingly evident when chatbots talk to each other.",
-    date: "October 22, 2026, 3:30–5:30 PM",
-    location: "Thomson House, Ballroom",
+      "Nearly every AI policy, from course syllabi to national strategies, now invokes the \"ethical use\" of AI. Few can say what that looks like in practice. In this talk, drawn from a book in progress, I suggest part of the reason is that AI ethics has been doing only half its job. Borrowing from William James's reply to W.K. Clifford, I argue that the field has two duties: to identify where AI goes wrong, and to identify where it goes well. The first duty has been discharged thoroughly. But the second has been largely neglected, including esp. the question of what it costs not to use these systems. Most of the ethical questions people actually face about AI are trade-offs between plural goods. A clinician who lets AI draft her notes gains time for patients and relief from burnout, but she may lose the place where her clinical reasoning happens. No rule settles which good should win out. I propose that such cases call for digital wisdom: judgment about trade-offs, whose precondition is honesty with oneself. I close by responding to the objection that \"use it wisely\" makes individual users responsible for harms produced by design and market incentives.<br/><br/><em>Registration details are on the <a href=\"https://www.mcgill.ca/jarislowsky-chair/channels/event/seminar-joshua-skorburg-digital-wisdom-trade-offs-honesty-and-judgment-age-artificial-intelligence-375144\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-accent hover:underline\">Jarislowsky Chair event page</a>.</em>",
+    date: "November 20, 2026, 3:30–5:30 PM",
+    location: "Thomson House, Room 404",
+    access: "Registration required",
+    host: "Hosted by the Jarislowsky Chair",
   },
   {
     title: "AI Mini-Course",
@@ -76,6 +75,27 @@ export const upcomingEvents: Event[] = [
 
 /** Most recent first. */
 export const pastEvents: Event[] = [
+  {
+    series: "Jarislowsky Lecture Series in Human Nature and Technology",
+    title:
+      "\"Natural and Mechanical Conversations\" with Jennifer Nagel (University of Toronto)",
+    description:
+      "Conversation is a natural human activity, although no longer an exclusively human activity: we can now talk to chatbots, and they can talk to each other. In human conversations, intrinsic epistemic motivations drive participants towards states of shared knowledge, aided by addressee backchannel signals — <em>mhm, huh? yeah, no, okay, oh</em> — marking progress towards this goal. This lecture argues that conversations with currently deployed chatbots do not work to produce states of shared knowledge, both because these chatbots lack intrinsic epistemic motivation, and because they are incapable of genuine backchannel signaling. These limitations are subtly evident when chatbots are paired with human conversational partners, and more strikingly evident when chatbots talk to each other.",
+    date: "October 22, 2026, 3:30–5:30 PM",
+    location: "Thomson House, Ballroom",
+  },
+  {
+    title:
+      "\"Credulity, Imagination, and Interpersonal Understanding\" with Daniel Munro (Boston University)",
+    /* The \u00A0 (non-breaking space) in "and AI generated" keeps those words
+       together so the abstract's last line doesn't end up as a two-word stub.
+       Don't replace them with ordinary spaces. */
+    description:
+      "Empirical research has uncovered various cognitive limitations and biases that make it difficult to detect deceptive testimony in real-time, as we receive it. While these limitations and biases might seem epistemically pernicious, some epistemologists have given optimistic takes, arguing that they're epistemically innocuous or even beneficial. I focus on a source of credulity about testimony that has been neglected in this literature. We often cognitively process other people's testimony by constructing mental imagery, or by imaginatively representing the contents of that testimony; empirical evidence suggests that, the more vivid and emotionally arousing this imagery, the more likely we are to believe the testimony without critically evaluating it. I first argue that prior, epistemically optimistic analyses of human credulity can't be applied to this specific form. I then offer an alternative explanation of its epistemic benefits: it enables deeper forms of interpersonal understanding that we couldn't achieve without it. While these benefits can be effectively accrued in ordinary face-to-face conversations, they're increasingly disrupted by phenomena like online misinformation and\u00A0AI\u00A0generated content.",
+    date: "October 15, 2026, 12:00–1:30 PM",
+    access: "Open to the public",
+    host: "Hosted by the Centre de recherche en éthique",
+  },
   {
     title: "Digital Technologies & Mental Health Workshop",
     description:
