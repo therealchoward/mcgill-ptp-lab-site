@@ -147,6 +147,7 @@ export const members: Member[] = [
   {
     name: "Danielle Oltman",
     role: "Undergraduate Fellow",
+    photo: "/images/members/oltman.jpg",
     category: "undergraduate",
   },
 ];
